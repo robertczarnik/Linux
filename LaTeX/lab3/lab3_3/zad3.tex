@@ -1,0 +1,102 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{listings}
+\lstloadlanguages{C++}
+
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}
+
+\definecolor{darkred}{rgb}{0.9,0,0}
+\definecolor{grey}{rgb}{0.4,0.4,0.4}
+\definecolor{orange}{rgb}{1,0.6,0.05}
+\definecolor{darkgreen}{rgb}{0.2,0.5,0.05}
+
+
+\begin{document}
+
+\lstset{language=C++,
+basicstyle=\ttfamily\small,
+keywordstyle=\color{darkgreen}\ttfamily\bfseries\small,
+stringstyle=\color{red}\ttfamily\small,
+commentstyle=\color{grey}\ttfamily\small,
+numbers=left,
+numberstyle=\color{darkred}\ttfamily\scriptsize,
+identifierstyle=\color{blue}\ttfamily\small,
+showstringspaces=false,
+morekeywords={
+}}
+
+\lstset{
+	literate={ą}{{\k{a}}}1
+           {ć}{{\'c}}1
+           {ę}{{\k{e}}}1
+           {ó}{{\'o}}1
+           {ń}{{\'n}}1
+           {ł}{{\l{}}}1
+           {ś}{{\'s}}1
+           {ź}{{\'z}}1
+           {ż}{{\.z}}1
+           {Ą}{{\k{A}}}1
+           {Ć}{{\'C}}1
+           {Ę}{{\k{E}}}1
+           {Ó}{{\'O}}1
+           {Ń}{{\'N}}1
+           {Ł}{{\L{}}}1
+           {Ś}{{\'S}}1
+           {Ź}{{\'Z}}1
+           {Ż}{{\.Z}}1,
+	basicstyle=\small\ttfamily,
+  	keywordstyle=\color{red}\ttfamily\bfseries\small,
+}
+
+\begin{lstlisting}[caption=Kod źródłowy 1,
+captionpos=b,label=src:passive2, firstnumber=1,frame=single]
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int s, n, i;
+  cout << "Proszę podać liczbę naturalna n : ";
+  cin >> n;
+  i = 1;
+  s = 1;
+  
+  while (i < n)
+  {
+    i++;
+    s *= i;
+  }
+  cout << "Silnia: " << s << endl;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Kod źródłowy 1,
+captionpos=b,label=src:passive2, firstnumber=1,frame=single]
+#include <iostream>
+using namespace std;
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int s, n, i;  
+  cout << "Podaj liczbę naturalna, n = ";
+  cin >> n;
+  s = 1;  
+  
+  for(i = 2; i <= n; i++) s *= i;  
+  
+  cout << "Silnia n: " << s << endl;
+}
+\end{lstlisting}
+
+\end{document}

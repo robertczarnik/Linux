@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{book}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[polish]{babel}
+\usepackage{listings}
+\usepackage{color}
+ 
+\sloppy
+ 
+\lstloadlanguages{TeX}
+ 
+\lstset{
+	literate={ą}{{\k{a}}}1
+           {ć}{{\'c}}1
+           {ę}{{\k{e}}}1
+           {ó}{{\'o}}1
+           {ń}{{\'n}}1
+           {ł}{{\l{}}}1
+           {ś}{{\'s}}1
+           {ź}{{\'z}}1
+           {ż}{{\.z}}1
+           {Ą}{{\k{A}}}1
+           {Ć}{{\'C}}1
+           {Ę}{{\k{E}}}1
+           {Ó}{{\'O}}1
+           {Ń}{{\'N}}1
+           {Ł}{{\L{}}}1
+           {Ś}{{\'S}}1
+           {Ź}{{\'Z}}1
+           {Ż}{{\.Z}}1,
+	basicstyle=\small\ttfamily,
+  	keywordstyle=\color{red}\ttfamily\bfseries\small,
+}
+
+\lstset{
+	morekeywords={w, przeciwnym, razie,koniec, warunku,to, jezeli},
+	escapechar=!,
+}
+
+\begin{document}
+
+\begin{lstlisting}
+!{\color{red}\ttfamily\bfseries\small jeżeli}! !{\color{blue}\underline{numer karty kredytowej}}! jest ważny to
+	wykonanie transakcji !w! oparciu o numer karty i zamówienie
+w przeciwnym razie
+	wyświetlenie wiadomości o niepowodzeniu
+koniec warunku
+\end{lstlisting}
+
+
+
+\end{document}

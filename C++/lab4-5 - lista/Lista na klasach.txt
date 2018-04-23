@@ -1,0 +1,19 @@
+istream & operator>>(istream &s1,Lista &o1) // dodawanie na poczatek listy
+{
+    auto *node = new Element;
+
+    s1>>node->data;
+    node->next = nullptr;
+
+    if(o1.head==nullptr)
+    {
+        o1.head=node;
+    }
+    else
+    {
+        node->next=o1.head;
+        o1.head=node;
+    }
+
+    return s1;
+}

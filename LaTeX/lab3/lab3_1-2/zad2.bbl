@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{Alu90}
+Alur R. and Dill D.
+\newblock Automata for modelling real-time systems.
+\newblock 1990.
+
+\bibitem{Ian82}
+Ian Sommerville.
+\newblock {\em Software Engineering}.
+\newblock 1982.
+
+\bibitem{Tom10}
+Tomasz Szmuc, Marcin Szpyrka, et~al.
+\newblock {\em Metody formalne w inżynierii oprogramowania systemów czasu
+  rzeczywistego}.
+\newblock 2010.
+
+\end{thebibliography}

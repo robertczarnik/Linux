@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/!Studia/Semestr II/C++/Macierz/macierz.cpp
+macierz.h
+D:/!Studia/Semestr II/C++/Macierz/macierz.h
+
+D:/!Studia/Semestr II/C++/Macierz/macierz.h
+iostream
+-
+
+D:/!Studia/Semestr II/C++/Macierz/main.cpp
+iostream
+-
+macierz.h
+D:/!Studia/Semestr II/C++/Macierz/macierz.h
+

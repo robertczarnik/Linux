@@ -1,0 +1,151 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.8)  19 APR 2018 10:36
+entering extended mode
+**./rtcpsieci2.tex
+(rtcpsieci2.tex
+LaTeX2e <2017-04-15>
+Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
+(D:\miktex\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(D:\miktex\tex\latex\base\size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:\miktex\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(D:\miktex\tex\latex\base\latin2.def
+File: latin2.def 2015/03/17 v1.2c Input encoding file
+)) (D:\miktex\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(D:\miktex\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (D:\miktex\tex\latex\psnfss\times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(D:\miktex\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\miktex\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:\miktex\tex\generic\babel\babel.sty
+Package: babel 2018/01/24 3.17 The Babel package
+ (D:\miktex\tex\generic\babel\switch.def
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\miktex\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\miktex\tex\latex\babel-polish\polish.ldf
+Language: polish 2005/03/31 v1.2l Polish support from the babel system
+
+(D:\miktex\tex\generic\babel\babel.def
+File: babel.def 2018/01/24 3.17 Babel common definitions
+ (D:\miktex\tex\generic\babel\switch.def
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
+)
+\babel@savecnt=\count87
+\U@D=\dimen103
+(D:\miktex\tex\generic\babel\txtbabel.def)
+\bbl@dirlevel=\count88
+)
+Package babel Info: Making " an active character on input line 83.
+\pl@left=\dimen104
+\pl@down=\dimen105
+\pl@right=\dimen106
+\pl@temp=\dimen107
+)) (rtcpsieci2.aux)
+\openout1 = `rtcpsieci2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 15.
+
+(D:\miktex\tex\latex\psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+ (D:\miktex\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(D:\miktex\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+ [1
+
+{C:/Users/pc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
+
+Overfull \hbox (7.43658pt too wide) in paragraph at lines 34--36
+\T1/ptm/m/n/12 pro-mis po-mi¦-dzy opi-sem for-mal-nym, a gra-ficz-nymi me-to-da
+mi mo-de-lo-wa-nia. Punk-
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
+(D:\miktex\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+ [2] [3] [4] (rtcpsieci2.aux) )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 24 ({)
+### simple group (level 1) entered at line 23 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1423 strings out of 493303
+ 15982 string characters out of 3146670
+ 78901 words of memory out of 3000000
+ 4988 multiletter control sequences out of 15000+200000
+ 25822 words of font info for 41 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,6n,26p,824b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/miktex/fonts/enc/dvips/base/8r.enc}<D:/miktex/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><D:/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/mi
+ktex/fonts/type1/urw/times/utmr8a.pfb><D:/miktex/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on rtcpsieci2.pdf (4 pages, 67316 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

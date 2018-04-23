@@ -1,0 +1,63 @@
+/*
+template <typename T>
+List<T> List<T>::operator+(List<T> const &o1)
+{
+    List<T> result;
+    Element<T> *node_1=head,*node_2=o1.head;
+    Element<T> *remember;
+
+    if(node_1 == nullptr && node_2 == nullptr) // both lists are empty
+    {
+        return result;
+    }
+
+    result.head = new Element<T>;
+
+    if(node_1 != nullptr)
+    {
+        result.head->data=node_1->data;
+        node_1=node_1->next;
+    }
+    else
+    {
+        result.head->data=node_2->data;
+        node_2=node_2->next;
+    }
+
+    result.head->next=new Element<T>;
+    remember=result.head->next;
+
+    while(node_1 != nullptr)
+    {
+        Element<T> *new_object;
+        new_object = remember;
+        new_object->next = new Element<T>;
+        new_object->data = node_1->data;
+        remember = new_object->next;
+
+        node_1 = node_1->next;
+
+        if(node_1 == nullptr && node_2 == nullptr)
+        {
+            new_object->next = nullptr;
+        }
+    }
+
+    while(node_2 != nullptr)
+    {
+        Element<T> *new_object;
+        new_object = remember;
+        new_object->next = new Element<T>;
+        new_object->data = node_2->data;
+        remember = new_object->next;
+
+        node_2 = node_2->next;
+
+        if(node_1 == nullptr && node_2 == nullptr)
+        {
+            new_object->next = nullptr;
+        }
+    }
+
+    return result;
+} */

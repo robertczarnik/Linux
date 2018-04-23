@@ -1,0 +1,40 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{enumerate}
+\usepackage{amsfonts}
+%\usepackage{amssymb}
+
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{2cm}{2cm}
+\sloppy
+ 
+\begin{document}
+
+\bibliographystyle{plain} 
+
+Z każdym działającym systemem komputerowym powiązane jest oczekiwanie 
+{\em poprawności} jego działania (\cite{Ian82}). Istnieje szeroka 
+klasa systemów, dla których poprawność powiązana jest nie tylko z 
+wynikami ich pracy, ale również z~czasem, w~jakim wyniki te są 
+otrzymywane. Systemy takie nazywane są {\em systemami czasu 
+rzeczywistego}, a~ponieważ są one rozpatrywane  w~kontekście swojego 
+otoczenia, często określane są terminem {\em systemy wbudowane} 
+(\cite{Ian82}, \cite{Tom10}). 
+
+Ze względu na specyficzne cechy takich systemów, weryfikacja jakości 
+tworzonego oprogramowania oparta wyłącznie na jego testach jest 
+niewystarczająca. Coraz częściej w~takich sytuacjach, weryfikacja 
+poprawności tworzonego systemu lub najbardziej istotnych jego 
+modułów prowadzona jest z~zastosowaniem metod formalnych 
+(\cite{Alu90}, \cite{Tom10}). 
+
+\renewcommand{\refname}{Literatura}
+
+
+\bibliography{bibliografia}
+ 
+\end{document}

@@ -1,0 +1,45 @@
+\documentclass[a4paper,11pt,fleqn]{article}
+\usepackage{amssymb}
+\usepackage[polish]{babel}
+\usepackage[cp1250]{inputenc} %1250
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{enumerate}
+\usepackage{times}
+\usepackage{subfig}
+\usepackage{hyperref}
+\hypersetup{colorlinks = true, allcolors = blue}
+\usepackage{graphicx} 
+
+%latech wikibooks floatfigures, pakiet wrapfig i do ramek framed
+%to diam ma byz zwykla czcionka ale w trybie matematycznym
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{2cm}{3cm}{3cm}{3cm}
+\sloppy
+
+\begin{document}
+
+\section*{Ca³ka Riemanna}
+Niech dana bêdzie \href{https://pl.wikipedia.org/wiki/Funkcja_ograniczona}{funkcja ograniczona} $f\!\colon[a,b]\to\mathbb{R}$. \emph{Suma czêsciowa} (Riemanna) nazywa siê liczb¹ 
+\[
+R_{f,P(q_{1},\dots,q_{n})}=\sum_{i=1}^{n}{f(q_{i})\cdot\Delta{p_{i}}}.
+\] 
+Funkcjê $f$ nazywa siê \emph{ca³kowaln¹ w sensie Riemanna} lub krótko \emph{R-ca³kowaln¹}, jeœli dla dowolnego ci¹gu normalnego $(P^k)$ podzia³ów przedzia³u $[a,b],$ istnieje (niezale¿na od wyboru punktów poœrednich) granica
+\[
+R_f=\lim_{k \rightarrow \infty}{R_{f,P^{k}(q_{1}^{k},...,q_{n}^{k})}}
+\]
+nazywana wtedy \textbf{ca³k¹ Riemanna} tej funkcji.~Równowa¿nie:~je¿eli istnieje taka liczba $R_{f},$ ¿e dla dowolnej liczby rzeczywistej $\varepsilon >0$ istnieje taka liczba rzeczywista $\delta >0,$ ¿e dla dowolnego podzia³u $P(q_{1},\dots ,q_{n})$ o œrednicy ${diam}\;P(q_{1},\dots ,q_{n})<\delta $ b¹dŸ te¿ w jêzyku rozdrobnieñ:~¿e dla dowolnej liczby rzeczywistej $\varepsilon >0$ istnieje taki podzia³ $ S(t_{1},\dots ,t_{m})$ przedzia³u $[a,b],$ ¿e dla ka¿dego podzia³u $P(q_{1},\dots ,q_{n})$ rozdrabniaj¹cego $S(t_{1},\dots ,t_{m})$ zachodzi
+\[
+\left|R_{{f,P(q_{1},\dots ,q_{n})}}-R_{f}\right|<\varepsilon .
+\]
+Funkcjê $f$ nazywa siê wtedy ca³kowaln¹ w sensie Riemanna (R-ca³kowaln¹), a liczbê $R_{f}$ jej ca³k¹ Riemanna.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=3cm]{800px-Riemann_sum_convergence.png}
+\caption{obraz}
+\label{fig:obrazek k}
+\end{figure}
+
+\end{document}

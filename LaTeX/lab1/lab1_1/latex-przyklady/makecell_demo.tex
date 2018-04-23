@@ -1,0 +1,159 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{makecell}
+\usepackage{rotating}
+\usepackage{multirow}
+
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}
+
+
+\begin{document}
+
+
+\begin{tabular}{|l|l|l|}
+\hline
+Rodzina & Gatunek & Wychów piskląt \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+Rodzina jaskółkowatych & Jaskółka dymówka & Pisklęta są rzekomymi gniazdownikami \\ \hline
+Rodzina jaskółkowatych & Jaskółka oknówka & Pisklęta są rzekomymi gniazdownikami \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[l]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[c]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[r]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell*[l]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell*[c]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell*[r]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[tl]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+\makecell[bl]{Rodzina\\ jaskółkowatych} & 
+Jaskółka oknówka & 
+\makecell[cl]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[bl]{Pisklęta są rzekomymi\\ gniazdownikami} \\ \hline
+%
+Rodzina jaskółkowatych & Jaskółka oknówka & 
+\makecell[{}{p{2.5cm}}]{Pisklęta są rzekomymi gniazdownikami} \\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\thead{Rodzina} & \thead{Gatunek} & \thead{Wychów\\ piskląt} \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\renewcommand\theadalign{tl}
+\renewcommand\theadfont{\bfseries\normalsize}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\thead{Rodzina} & \thead{Gatunek} & \thead{Wychów\\ piskląt} \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+
+\setlength\rotheadsize{15mm}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\rothead{Rodzina} & \rothead{Gatunek} & \rothead{Wychów\\ piskląt} \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{|l|l|}
+\hline
+Rodzina & Gatunek \\ \hline
+Rodzina krukowatych & Kruk \\ \hline
+\Gape[2mm]{Rodzina krukowatych} & Kruk \\ \hline
+\Gape[4mm][0mm]{Rodzina krukowatych} & Kruk \\ \hline
+\Gape[1mm][4mm]{Rodzina krukowatych} & Kruk \\ \hline
+\end{tabular}
+
+
+\vspace{1cm}
+
+\setcellgapes{15pt}
+
+\begin{table}[!ht]
+\makegapedcells
+\begin{tabular}{|l|l|l|}
+\hline
+Rodzina & Gatunek & Wychów piskląt \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\begin{tabular}{|l|l|l|}
+\hline
+Rodzina & Gatunek & Wychów piskląt \\ \hline
+Rodzina krukowatych & Kruk & Pisklęta są gniazdownikami \\ \hline
+Rodzina krukowatych & Gawron & Pisklęta są gniazdownikami \\ \hline
+\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+\begin{tabular}{|l|l|l|}
+\hline
+Rodzina & Gatunek & Wychów piskląt \\ \hline
+\multirowcell{2}[0pt][l]{Rodzina krukowatych} & 
+Kruk & Pisklęta są gniazdownikami \\ \cline{2-3}
+ & Gawron & Pisklęta są gniazdownikami \\ \hline
+\multirowcell{2}[0pt][l]{Rodzina jaskółkowatych} & 
+Jaskółka dymówka & Pisklęta są rzekomymi gniazdownikami \\ \cline{2-3}
+ & Jaskółka oknówka & Pisklęta są rzekomymi gniazdownikami \\ \hline
+\end{tabular}
+
+
+\vspace{1cm}
+
+\renewcommand\theadalign{cc}
+\renewcommand\theadfont{\normalsize}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\diaghead(2,-1){xxxxxxxxxxxxxxxxxx}  % tekst na podstawie którego definiowana jest szerokość kolumny
+{Krukowate}{Jaskółkowate} &
+\thead{Jaskółka dymówka}&
+\thead{Jaskółka oknówka}  \\ \hline
+Kruk && \\\hline
+Gawron && \\\hline
+\end{tabular}
+
+
+
+
+\end{document}

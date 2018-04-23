@@ -1,0 +1,130 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.8)  22 MAR 2018 14:39
+entering extended mode
+**./lab1_6.tex
+(lab1_6.tex
+LaTeX2e <2017-04-15>
+Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
+(D:\miktex\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(D:\miktex\tex\latex\base\size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:\miktex\tex\generic\babel\babel.sty
+Package: babel 2018/01/24 3.17 The Babel package
+
+(D:\miktex\tex\generic\babel\switch.def
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\miktex\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\miktex\tex\latex\babel-polish\polish.ldf
+Language: polish 2005/03/31 v1.2l Polish support from the babel system
+
+(D:\miktex\tex\generic\babel\babel.def
+File: babel.def 2018/01/24 3.17 Babel common definitions
+ (D:\miktex\tex\generic\babel\switch.def
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
+)
+\babel@savecnt=\count87
+\U@D=\dimen103
+(D:\miktex\tex\generic\babel\txtbabel.def)
+\bbl@dirlevel=\count88
+)
+Package babel Info: Making " an active character on input line 83.
+\pl@left=\dimen104
+\pl@down=\dimen105
+\pl@right=\dimen106
+\pl@temp=\dimen107
+))
+(D:\miktex\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ (D:\miktex\tex\latex\base\latin2.def
+File: latin2.def 2015/03/17 v1.2c Input encoding file
+))
+(D:\miktex\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (D:\miktex\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(D:\miktex\tex\latex\ltxmisc\anysize.sty
+Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
+
+Package: `anysize' 1.0 <1994/08/13>
+\@Leftmargin=\dimen108
+\@Rightmargin=\dimen109
+\@Topmargin=\dimen110
+\@Bottommargin=\dimen111
+) (D:\miktex\tex\latex\psnfss\times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(D:\miktex\tex\latex\multirow\multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count89
+\multirow@dima=\skip44
+\bigstrutjot=\dimen112
+) (lab1_6.aux)
+\openout1 = `lab1_6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 13.
+
+(D:\miktex\tex\latex\psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+ [1
+
+{C:/Users/pc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (lab1_6.aux) )
+ 
+Here is how much of TeX's memory you used:
+ 1161 strings out of 493303
+ 13389 string characters out of 3146670
+ 72228 words of memory out of 3000000
+ 4742 multiletter control sequences out of 15000+200000
+ 9870 words of font info for 26 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,8n,23p,201b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/miktex/fonts/enc/dvips/base/8r.enc}<D:/miktex/fonts/type1/urw/times/utmr8a.
+pfb>
+Output written on lab1_6.pdf (1 page, 12768 bytes).
+PDF statistics:
+ 11 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

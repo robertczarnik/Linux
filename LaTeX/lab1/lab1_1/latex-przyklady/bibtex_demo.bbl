@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{PetriNetsWorld}
+{Petri Nets World}.
+\newblock http://www.informatik.uni-hamburg.de/TGI/PetriNets.
+
+\bibitem{BuySlo94}
+U.~A. Buy and R.~H. Sloan.
+\newblock Analysis of real-time programs with simple time {P}etri nets.
+\newblock In {\em Proceedings of the International Symposium on Software
+  Testing and Analysis}, pages 228--239, New York, USA, 1994. ACM Press.
+
+\bibitem{Che02}
+A.~M.~K. Cheng.
+\newblock {\em Real-time Systems. Scheduling, Analysis, and Verification}.
+\newblock Wiley Interscience, New Jersey, 2002.
+
+\bibitem{Jen}
+K.~Jensen.
+\newblock {\em Coloured {P}etri Nets. Basic Concepts, Analysis Methods and
+  Practical Use}, volume 1--3.
+\newblock Springer-{V}erlag, Berlin, Germany, 1992-1997.
+
+\bibitem{MerFa76}
+P.~M. Merlin and D.~J. Faber.
+\newblock Recoverability of communication protocols -- implications of a
+  theoretical study.
+\newblock {\em {IEEE} Transactions on Communications}, COM-24(7):381--404,
+  1976.
+
+\bibitem{Mur89}
+T.~Murata.
+\newblock {P}etri nets: Properties, analysis and applications.
+\newblock {\em Proceedings of the {IEEE}}, 77(4):541--580, 1989.
+
+\bibitem{Pet65}
+C.~A. Petri.
+\newblock Communication with automata.
+\newblock Technical report, New York, 1965.
+\newblock English translation of {\em Kommunikation mit Automaten}, PhD
+  Dissertation, University of Bonn, 1962.
+
+\bibitem{Rei88}
+W.~Reisig.
+\newblock {\em Sieci {P}etriego}.
+\newblock WNT, Warszawa, 1988.
+
+\bibitem{SaSzm02}
+S.~Samolej and T.~Szmuc.
+\newblock Time extensions of {P}etri nets for modelling and verification of
+  hard real-time systems.
+\newblock {\em Computer Science}, 4:55--76, 2002.
+
+\bibitem{Sta87}
+P.~H. Starke.
+\newblock {\em Sieci {P}etri. Podstawy, zastosowania, teoria}.
+\newblock PWN, Warszawa, 1987.
+
+\bibitem{Szp08-WNT}
+M.~Szpyrka.
+\newblock {\em Sieci {P}etriego w modelowaniu i analizie systemów
+  wspó³bie¿nych}.
+\newblock {WNT}, Warszawa, 2008.
+
+\end{thebibliography}
