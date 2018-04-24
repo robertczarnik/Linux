@@ -210,6 +210,8 @@ bool Macierz::operator==(const Macierz &o1)
 
         return true;
     }
+    else if(rozmiar==o1.rozmiar)
+        return true;
 
     return false;
 }
@@ -225,8 +227,10 @@ bool Macierz::operator!=(const Macierz &o1)
 
         return false;
     }
+    else if(rozmiar==o1.rozmiar)
+        return false;
 
-    return false;
+    return true;
 }
 
 bool Macierz::operator>(const Macierz &o1)
