@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab7___szablon_listy.dir/main.cpp.obj"
-  "CMakeFiles/lab7___szablon_listy.dir/macierz.cpp.obj"
+  "CMakeFiles/lab7___szablon_listy.dir/main.cpp.o"
+  "CMakeFiles/lab7___szablon_listy.dir/macierz.cpp.o"
   "lab7___szablon_listy.pdb"
-  "lab7___szablon_listy.exe"
-  "lab7___szablon_listy.exe.manifest"
-  "liblab7___szablon_listy.dll.a"
+  "lab7___szablon_listy"
 )
 
 # Per-language clean rules from dependency scanning.
