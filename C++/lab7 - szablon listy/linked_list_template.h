@@ -43,7 +43,6 @@ public:
     bool operator!=(List const &o1);
 };
 
-
 template <typename T>
 List<T>::List()
 {

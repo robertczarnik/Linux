@@ -6,6 +6,8 @@ class Bigint
     friend istream & operator>>(istream &s1, Bigint &o1);
     friend ostream & operator<<(ostream &s1, Bigint const &o1);
 
+protected:
+
     string data;
 
 public:
@@ -106,11 +108,76 @@ ostream & operator<<(ostream &s1, Bigint const &o1)
     return s1;
 }
 
+class Bigint_extended : public Bigint
+{
+public:
+
+    Bigint_extended &operator=(const Bigint &o1)
+    {
+        Bigint::operator=(o1);
+        return *this;
+    }
+
+    bool operator==(Bigint_extended const &o1)
+    {
+        return (this->data == o1.data);
+    }
+
+    bool operator!=(Bigint_extended const &o1)
+    {
+        return (this->data != o1.data);
+    }
+
+    bool operator<(Bigint_extended const &o1)
+    {
+        if(this->data.size()<o1.data.size())
+            return true;
+        else if(this->data.size()==o1.data.size())
+        {
+            for(int i=0;i<this->data.size();i++)
+            {
+                if(this->data[i]!=o1.data[i])
+                {
+                    return (this->data.size() < o1.data.size());
+                }
+            }
+        }
+
+        return false;
+    }
+
+    bool operator>(Bigint_extended const &o1)
+    {
+        if(this->data.size()>o1.data.size())
+            return true;
+        else if(this->data.size()==o1.data.size())
+        {
+            for(int i=0;i<this->data.size();i++)
+            {
+                if(this->data[i]!=o1.data[i])
+                {
+                    return (this->data.size() > o1.data.size());
+                }
+            }
+        }
+
+        return false;
+    }
+
+    Bigint operator*(Bigint_extended const &o1)
+    {
+        Bigint_extended result;
+        result.data=0;
+        unsigned long dlugosc=this->data.size();
+        int potega_10=0;
+    }
+
+};
 
 
 int main()
 {
-    Bigint a,b,c;
+    Bigint_extended a,b,c,d;
 
     cin >> a;
     cout << a << endl;
@@ -119,7 +186,14 @@ int main()
     cout << b << endl;
 
     c=a+b;
-    cout << endl << endl << c;
+    d=a*b;
+
+    cout << "c: " << c << endl;
+    cout << "d: " << d << endl;
+    cout << "a==b: " << (a==b) << endl;
+    cout << "a!=b: " << (a!=b) << endl;
+    cout << "a<b: " << (a<b) << endl;
+    cout << "a>b: " << (a>b) << endl;
 
     //99999999999999999999999999999999999999999999999999999999999999999999999999999999
 }
