@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 using  namespace std;
 
 class Bigint
@@ -164,12 +165,50 @@ public:
         return false;
     }
 
-    Bigint operator*(Bigint_extended const &o1)
+    Bigint_extended operator*(Bigint_extended const &o1)
     {
         Bigint_extended result;
-        result.data=0;
-        unsigned long dlugosc=this->data.size();
-        int potega_10=0;
+        result.data="0";
+        Bigint_extended tab[10];
+        unsigned long tmp,add;
+        int num;
+        char number;
+        string zeros;
+        zeros = "";
+
+        for(int j=0;j<10;j++)
+        {
+            tmp = 0;
+
+            for (unsigned long i = this->data.size(); i > 0; i--)
+            {
+                num = this->data[i - 1] - '0';
+                add = (num * j) + tmp;
+
+                tmp = add / 10;
+                add = add % 10;
+                number = static_cast<char>(add + 48);
+
+                tab[j].data = number + tab[j].data;
+            }
+
+            if(tmp)
+            {
+                ostringstream ss; // conversion to string
+                ss << tmp;
+                tab[j].data = ss.str() + tab[j].data;
+            }
+        }
+
+        for (unsigned long i = o1.data.size(); i > 0; i--)
+        {
+            Bigint_extended tmp2;
+            tmp2.data=tab[o1.data[i-1]-'0'].data + zeros; // adding zeros at the end
+            result = result + tmp2;
+            zeros.insert(0,"0");
+        }
+
+        return result;
     }
 
 };
@@ -185,15 +224,10 @@ int main()
     cin >> b;
     cout << b << endl;
 
-    c=a+b;
     d=a*b;
 
-    cout << "c: " << c << endl;
     cout << "d: " << d << endl;
-    cout << "a==b: " << (a==b) << endl;
-    cout << "a!=b: " << (a!=b) << endl;
-    cout << "a<b: " << (a<b) << endl;
-    cout << "a>b: " << (a>b) << endl;
+
 
     //99999999999999999999999999999999999999999999999999999999999999999999999999999999
 }
