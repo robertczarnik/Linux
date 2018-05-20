@@ -224,7 +224,7 @@ int main()
     cin >> b;
     cout << b << endl;
 
-    d=a*b;
+    d=a+b;
 
     cout << "d: " << d << endl;
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BigInt3.dir/main.cpp.o  -o BigInt3 

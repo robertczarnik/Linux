@@ -260,10 +260,11 @@ bool List<T>::operator!=(List<T> const &o1)
 template <typename T>
 istream & operator>>(istream &s1,List<T> &o1)
 {
-    auto *node = new Element<T>;
+    Element<T> *node;
 
     if(o1.head==nullptr) // empty list
     {
+        node = new Element<T>;
         s1 >> node->data;
         node->next = nullptr;
         o1.head=node;
