@@ -1,3 +1,1 @@
-"D:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\lab7___szablon_listy.dir/objects.a
-D:\MinGW\bin\ar.exe cr CMakeFiles\lab7___szablon_listy.dir/objects.a @CMakeFiles\lab7___szablon_listy.dir\objects1.rsp
-D:\MinGW\bin\g++.exe  -std=gnu++11 -g   -Wl,--whole-archive CMakeFiles\lab7___szablon_listy.dir/objects.a -Wl,--no-whole-archive  -o lab7___szablon_listy.exe -Wl,--out-implib,liblab7___szablon_listy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lab7___szablon_listy.dir\linklibs.rsp
+/usr/bin/c++   -std=gnu++11 -g   CMakeFiles/lab7___szablon_listy.dir/main.cpp.o CMakeFiles/lab7___szablon_listy.dir/macierz.cpp.o  -o lab7___szablon_listy 

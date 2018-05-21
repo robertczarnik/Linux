@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/linked_list_template.h
+/home/robert/Linux/C++/lab7 - szablon listy/linked_list_template.h
 iostream
 -
 
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/macierz.cpp
+/home/robert/Linux/C++/lab7 - szablon listy/macierz.cpp
 macierz.h
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/macierz.h
+/home/robert/Linux/C++/lab7 - szablon listy/macierz.h
 
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/macierz.h
+/home/robert/Linux/C++/lab7 - szablon listy/macierz.h
 iostream
 -
 
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/main.cpp
+/home/robert/Linux/C++/lab7 - szablon listy/main.cpp
 iostream
 -
 linked_list_template.h
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/linked_list_template.h
+/home/robert/Linux/C++/lab7 - szablon listy/linked_list_template.h
 macierz.h
-D:/!!Studia/Semestr II/C++/lab7 - szablon listy/macierz.h
+/home/robert/Linux/C++/lab7 - szablon listy/macierz.h
 

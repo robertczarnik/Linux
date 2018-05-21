@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab8___big_int.dir/main.cpp.o  -o lab8___big_int 

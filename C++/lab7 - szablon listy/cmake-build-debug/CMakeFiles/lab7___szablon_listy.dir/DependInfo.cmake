@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/!!Studia/Semestr II/C++/lab7 - szablon listy/macierz.cpp" "D:/!!Studia/Semestr II/C++/lab7 - szablon listy/cmake-build-debug/CMakeFiles/lab7___szablon_listy.dir/macierz.cpp.obj"
-  "D:/!!Studia/Semestr II/C++/lab7 - szablon listy/main.cpp" "D:/!!Studia/Semestr II/C++/lab7 - szablon listy/cmake-build-debug/CMakeFiles/lab7___szablon_listy.dir/main.cpp.obj"
+  "/home/robert/Linux/C++/lab7 - szablon listy/macierz.cpp" "/home/robert/Linux/C++/lab7 - szablon listy/cmake-build-debug/CMakeFiles/lab7___szablon_listy.dir/macierz.cpp.o"
+  "/home/robert/Linux/C++/lab7 - szablon listy/main.cpp" "/home/robert/Linux/C++/lab7 - szablon listy/cmake-build-debug/CMakeFiles/lab7___szablon_listy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

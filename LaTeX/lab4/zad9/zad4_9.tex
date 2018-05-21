@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\usetikzlibrary{calc,through,backgrounds,positioning,fit}
+\usetikzlibrary{shapes,arrows,shadows}
+\usetikzlibrary{arrows,decorations.markings}
+ 
+\begin{document}
+ 
+\tikzstyle{leaf}=[isosceles triangle,draw,shape border rotate=90,isosceles triangle stretches=true, minimum height=12mm,minimum width=12mm,inner sep=0,yshift={-20mm}]
+ 
+\begin{tikzpicture}[scale=1,inner sep=0.4mm]
+
+\node [leaf] (e3) at (-1.3,-1.) {Left};
+\node [leaf] (e2) at (1.3,-1.) {Right};
+\node (A) at (0,-1) [shape=circle,draw] {$a,c$};
+\node (u) at (0,0) {$u$};
+\draw [->,>=triangle 60,thin] (u) to (A);
+
+\draw [->,>=triangle 60,thin] (A) to  (e3.north);
+\draw [->,>=triangle 60,thin] (A) to  (e2.north);
+
+\coordinate (O) at (0,-1.30);
+\node at (O) [left=20pt] {$a(u)\ge c$};
+\node at (O) [right=20pt] {$a(u)>c$};
+
+\end{tikzpicture}
+\end{document}
