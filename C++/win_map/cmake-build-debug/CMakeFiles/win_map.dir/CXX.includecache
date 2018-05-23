@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/!!Studia/Semestr II/C++/win_map/main.cpp
+/home/robert/Linux/C++/win_map/main.cpp
 iostream
 -
 map

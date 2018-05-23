@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/win_map.dir/main.cpp.obj"
+  "CMakeFiles/win_map.dir/main.cpp.o"
   "win_map.pdb"
-  "win_map.exe"
-  "win_map.exe.manifest"
-  "libwin_map.dll.a"
+  "win_map"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -3,17 +3,22 @@
 using namespace std;
 
 template <typename key,typename value>
+class MAP; // declaration
+
+template <typename key,typename value>
 class Element
 {
-public:
-    key first;
-    value second;
+    friend class MAP<key,value>;
     Element<key,value> *next;
 
     Element()
     {
         next = nullptr;
     }
+
+public:
+    key first;
+    value second;
 };
 
 template <typename key,typename value>
@@ -24,6 +29,20 @@ public:
 
     MAP()
     {
+        head = nullptr;
+    }
+
+    ~MAP()
+    {
+        Element<key,value> *node=head;
+
+        while(node != nullptr)
+        {
+            Element<key,value> *tmp = node->next;
+            delete node;
+            node=tmp;
+        }
+
         head = nullptr;
     }
 
@@ -58,11 +77,16 @@ public:
 
     class iteratorek
     {
+    public:
         Element<key,value> *wsk;
 
-        int operator!=(const iteratorek &o1) {
-            if (ws != o1.wsk) return 1;
-            return 0;
+        iteratorek()
+        {
+            wsk = nullptr;
+        }
+
+        bool operator!=(const iteratorek &o1) {
+            return wsk != o1.wsk;
         }
 
         iteratorek &operator++(int) {
@@ -78,20 +102,35 @@ public:
 
     iteratorek begin()
     {
-        iteratorek i1{};
-        i1.ws = pierw; // przy end =0;
-        return i1;
+        iteratorek i;
+        i.wsk = head;
+        return i;
     }
 
     iteratorek end()
     {
-        iteratorek i1;
-        i1.ws = nullptr; // przy end =0;
-        return i1;
+        iteratorek i;
+        i.wsk = nullptr;
+        return i;
     }
 
 };
 
 int main()
 {
+    MAP <string,string> m;
+
+    m["aa"]="bb";
+    m["cc"]="dd";
+    string s1;
+    s1=m["zz"];
+    s1=m["gf"];
+    m["sznycel"]="dobra szamowa";
+    m["cc"]="kappa";
+
+    for(MAP<string,string>::iteratorek i=m.begin();i!=m.end();i++)
+    {
+        cout << i->first << " " << i->second << endl;
+    }
+
 }
