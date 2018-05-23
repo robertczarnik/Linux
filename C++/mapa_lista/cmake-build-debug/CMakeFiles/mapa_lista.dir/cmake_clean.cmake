@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mapa_lista.dir/main.cpp.o"
+  "CMakeFiles/mapa_lista.dir/main.cpp.obj"
   "mapa_lista.pdb"
-  "mapa_lista"
+  "mapa_lista.exe"
+  "mapa_lista.exe.manifest"
+  "libmapa_lista.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

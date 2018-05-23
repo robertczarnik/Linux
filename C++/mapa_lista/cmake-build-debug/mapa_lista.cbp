@@ -8,86 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/robert/Linux/C++/mapa_lista/cmake-build-debug"/>
+				<Option working_dir="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/robert/Linux/C++/mapa_lista/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/robert/Linux/C++/mapa_lista/cmake-build-debug"/>
+				<Option working_dir="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mapa_lista">
-				<Option output="/home/robert/Linux/C++/mapa_lista/cmake-build-debug/mapa_lista" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robert/Linux/C++/mapa_lista/cmake-build-debug"/>
+				<Option output="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/mapa_lista.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 mapa_lista"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 mapa_lista"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mapa_lista/fast">
-				<Option output="/home/robert/Linux/C++/mapa_lista/cmake-build-debug/mapa_lista" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robert/Linux/C++/mapa_lista/cmake-build-debug"/>
+				<Option output="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/mapa_lista.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 mapa_lista/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/robert/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 mapa_lista/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/robert/Linux/C++/mapa_lista/main.cpp">
+		<Unit filename="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/main.cpp">
 			<Option target="mapa_lista"/>
 		</Unit>
-		<Unit filename="/home/robert/Linux/C++/mapa_lista/CMakeLists.txt">
+		<Unit filename="D:/!!Studia/Semestr II/Linux/C++/mapa_lista/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
