@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mapa_lista.dir/main.cpp.o  -o mapa_lista 

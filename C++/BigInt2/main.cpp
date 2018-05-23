@@ -15,7 +15,9 @@ protected:
 public:
     BigInt();
     ~BigInt();
-    BigInt &operator=(const BigInt &o1);
+    BigInt(const BigInt &o1);
+
+    BigInt &operator=(BigInt const &o1);
     BigInt operator+(BigInt const &o1);
 };
 
@@ -32,13 +34,20 @@ BigInt::~BigInt()
     delete [] data;
 }
 
+BigInt::BigInt(const BigInt &o1)
+{
+    data = new char[o1.size];
+    size = o1.size;
+    memcpy(data,o1.data,size);
+}
+
 BigInt &BigInt::operator=(BigInt const &o1)
 {
     if(this==&o1) // a=a
         return *this;
 
     delete [] data;
-    size=o1.size;
+    size = o1.size;
     data = new char[size];
 
     memcpy( data, o1.data, size );
@@ -48,12 +57,12 @@ BigInt &BigInt::operator=(BigInt const &o1)
 
 BigInt BigInt::operator+(BigInt const &o1)
 {
-    string tmp_result;
+    string tmp_result="";
     int tmp=0,num1,num2,sum;
     char number;
     unsigned long size1 = size-1;
     unsigned long size2 = o1.size-1;
-    unsigned long iterations = 0;
+    unsigned long iterations;
 
     iterations = (size1>=size2) ? size2 : size1;
 
@@ -69,7 +78,6 @@ BigInt BigInt::operator+(BigInt const &o1)
         number = static_cast<char>(sum+48);
 
         tmp_result = number + tmp_result;
-
     }
 
     if(size1>size2)
@@ -125,7 +133,7 @@ istream &operator>>( istream &s1, BigInt &o1 )
 
     delete [] o1.data;
 
-    unsigned long rozmiar = s.size(); //FIXME: size of string??
+    unsigned long rozmiar = s.size();
     rozmiar++;
     o1.data = new char [rozmiar];
     o1.size = rozmiar;
@@ -135,7 +143,7 @@ istream &operator>>( istream &s1, BigInt &o1 )
         o1.data[i]=s[i];
     }
 
-    o1.data[rozmiar]='\0';
+    o1.data[rozmiar-1]='\0';
 
     return s1;
 }
@@ -196,7 +204,7 @@ public:
             {
                 if(data[i]!=o1.data[i])
                 {
-                    return (size < o1.size);
+                    return (data[i] < o1.data[i]);
                 }
             }
         }
@@ -214,7 +222,7 @@ public:
             {
                 if(data[i]!=o1.data[i])
                 {
-                    return (size > o1.size);
+                    return (data[i] > o1.data[i]);
                 }
             }
         }
@@ -226,7 +234,7 @@ public:
     {
         Bigint_extended result;
         string result_tmp="0";
-        string tab[10];
+        string tab[10]={"0"};
         unsigned long tmp,add;
         int num;
         char number;
@@ -283,16 +291,25 @@ public:
 
 int main()
 {
-    Bigint_extended a,b,c;
-    BigInt d;
+    Bigint_extended a,b,d,e;
 
     cin >> a;
-    cout << a << endl;
     cin >> b;
-    cout << b << endl;
 
-    d=a*b;
+    Bigint_extended c(a);
 
-    cout << "d: " << d << endl;
+    cout << "a: " << a << endl;
+    cout << "b: " << b << endl;
+    cout << "copy a: " << c << endl;
 
+    d=a+b;
+    e=a*b;
+
+    cout << "d=a+b: " << d << endl;
+    cout << "e=a*b: " << e << endl;
+
+    cout << "a==b: " << (a==b) << endl;
+    cout << "a!=b: " << (a!=b) << endl;
+    cout << "a<b: " << (a<b) << endl;
+    cout << "a>b: " << (a>b) << endl;
 }
