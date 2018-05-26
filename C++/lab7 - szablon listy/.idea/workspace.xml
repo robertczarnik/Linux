@@ -11,43 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="770e3451-6880-44bd-9637-6a261d272498" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../mapa_lista/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mapa_lista/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../win_map/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../win_map/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeRCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/CMakeError.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/CXX.includecache" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/build.make" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/depend.internal" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/depend.make" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/flags.make" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/link.txt" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/linklibs.rsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/main.cpp.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/objects.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/CMakeFiles/win_map.dir/objects1.rsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/../win_map/cmake-build-debug/win_map.cbp" afterPath="$PROJECT_DIR$/../win_map/cmake-build-debug/win_map.cbp" />
-      <change beforePath="$PROJECT_DIR$/../win_map/main.cpp" afterPath="$PROJECT_DIR$/../win_map/main.cpp" />
-    </list>
+    <list default="true" id="770e3451-6880-44bd-9637-6a261d272498" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="221">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -81,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linked_list_template.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linked_list_template.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linked_list_template.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="22">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#156#168#0" expanded="true" />
                 <element signature="e#206#218#0" expanded="true" />
@@ -172,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAP_RBTREE" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -222,6 +186,7 @@
       <workItem from="1526310318415" duration="4154000" />
       <workItem from="1526728368750" duration="338000" />
       <workItem from="1527100778109" duration="1397000" />
+      <workItem from="1527184553831" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="szablon listy">
       <created>1524557966129</created>
@@ -234,21 +199,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17733000" />
+    <option name="totallyTimeSpent" value="17867000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109433964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39447513" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22903885" sideWeight="0.33261454" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22290389" sideWeight="0.66738546" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22290389" sideWeight="0.66738546" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.8765625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.8765625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5902965" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -283,6 +249,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list_template.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#156#168#0" expanded="true" />
+            <element signature="e#206#218#0" expanded="true" />
+            <element signature="e#275#288#0" expanded="true" />
+            <element signature="e#362#375#0" expanded="true" />
+            <element signature="e#486#498#0" expanded="true" />
+            <element signature="e#524#537#0" expanded="true" />
+            <element signature="e#610#623#0" expanded="true" />
+            <element signature="e#933#945#0" expanded="true" />
+            <element signature="e#996#1008#0" expanded="true" />
+            <element signature="e#987#1929#0" expanded="false" />
+            <element signature="e#1940#1952#0" expanded="true" />
+            <element signature="e#2149#2161#0" expanded="true" />
+            <element signature="e#3416#3428#0" expanded="true" />
+            <element signature="e#4744#4756#0" expanded="true" />
+            <element signature="e#4735#5200#0" expanded="false" />
+            <element signature="e#5211#5223#0" expanded="true" />
+            <element signature="e#5202#5666#0" expanded="false" />
+            <element signature="e#5677#5689#0" expanded="true" />
+            <element signature="e#5668#6309#0" expanded="false" />
+            <element signature="e#6320#6332#0" expanded="true" />
+            <element signature="e#6311#6535#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -744,10 +758,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linked_list_template.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="22">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#156#168#0" expanded="true" />
             <element signature="e#206#218#0" expanded="true" />
@@ -770,16 +794,6 @@
             <element signature="e#5668#6309#0" expanded="false" />
             <element signature="e#6320#6332#0" expanded="true" />
             <element signature="e#6311#6535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

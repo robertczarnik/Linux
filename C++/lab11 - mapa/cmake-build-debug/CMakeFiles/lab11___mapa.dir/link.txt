@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab11___mapa.dir/main.cpp.o  -o lab11___mapa 

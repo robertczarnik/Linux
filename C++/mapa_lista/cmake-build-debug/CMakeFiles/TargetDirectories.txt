@@ -1,3 +1,0 @@
-D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/CMakeFiles/mapa_lista.dir
-D:/!!Studia/Semestr II/Linux/C++/mapa_lista/cmake-build-debug/CMakeFiles/rebuild_cache.dir

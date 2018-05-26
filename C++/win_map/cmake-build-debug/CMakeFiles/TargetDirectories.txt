@@ -1,3 +1,0 @@
-/home/robert/Linux/C++/win_map/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/robert/Linux/C++/win_map/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/robert/Linux/C++/win_map/cmake-build-debug/CMakeFiles/win_map.dir

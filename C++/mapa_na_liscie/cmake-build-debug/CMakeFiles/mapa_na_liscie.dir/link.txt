@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mapa_na_liscie.dir/main.cpp.o  -o mapa_na_liscie 
