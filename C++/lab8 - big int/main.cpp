@@ -51,13 +51,13 @@ BigInt &BigInt::operator=(BigInt const &o1)
     data = new char[size];
 
     memcpy( data, o1.data, size );
-
     return *this;
 }
 
 BigInt BigInt::operator+(BigInt const &o1)
 {
-    string tmp_result="";
+    string tmp_result;
+    tmp_result="";
     int tmp=0,num1,num2,sum;
     char number;
     unsigned long size1 = size-1;
@@ -234,7 +234,7 @@ public:
     {
         Bigint_extended result;
         string result_tmp="0";
-        string tab[10]={"0"};
+        string tab[10]={""};
         unsigned long tmp,add;
         int num;
         char number;
@@ -280,7 +280,6 @@ public:
             tmp2.data[tmp2.size-1]='\0';
             result = result + tmp2;
             zeros.insert(0,"0");
-
         }
 
 
@@ -291,25 +290,12 @@ public:
 
 int main()
 {
-    Bigint_extended a,b,d,e;
-
+    Bigint_extended a, b, c;
     cin >> a;
     cin >> b;
+    cin >> c;
 
-    Bigint_extended c(a);
+    c=a*b;
 
-    cout << "a: " << a << endl;
-    cout << "b: " << b << endl;
-    cout << "copy a: " << c << endl;
-
-    d=a+b;
-    e=a*b;
-
-    cout << "d=a+b: " << d << endl;
-    cout << "e=a*b: " << e << endl;
-
-    cout << "a==b: " << (a==b) << endl;
-    cout << "a!=b: " << (a!=b) << endl;
-    cout << "a<b: " << (a<b) << endl;
-    cout << "a>b: " << (a>b) << endl;
+    cout << c << endl;
 }
