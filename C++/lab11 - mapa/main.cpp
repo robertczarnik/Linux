@@ -41,6 +41,7 @@ public:
     ~MAP()
     {
         DeleteNode(root);
+        root = nullptr;
     }
 
     void DeleteNode(Element<key,value> *node)
@@ -63,7 +64,7 @@ public:
         delete node;
     }
 
-    void RotateLeft(Element<key,value> *x) //OK
+    void RotateLeft(Element<key,value> *x)
     {
         Element<key,value> *y;
 
@@ -327,6 +328,7 @@ int main()
     string s1,s2;
     s1=m["cc"];
     s2=m["zz"];
+
 
     for(MAP<string,string>::iteratorek i=m.begin();i!=m.end();i++)
     {

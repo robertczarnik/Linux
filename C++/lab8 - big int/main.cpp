@@ -32,6 +32,7 @@ BigInt::BigInt()
 BigInt::~BigInt()
 {
     delete [] data;
+    data = nullptr;
 }
 
 BigInt::BigInt(const BigInt &o1)
@@ -234,7 +235,7 @@ public:
     {
         Bigint_extended result;
         string result_tmp="0";
-        string tab[10]={""};
+        string tab[10]={""};// tab[1] 123
         unsigned long tmp,add;
         int num;
         char number;
@@ -282,7 +283,7 @@ public:
             zeros.insert(0,"0");
         }
 
-
+//32
         return result;
     }
 
@@ -290,12 +291,17 @@ public:
 
 int main()
 {
-    Bigint_extended a, b, c;
+    Bigint_extended a, b, c, d;
     cin >> a;
     cin >> b;
-    cin >> c;
 
-    c=a*b;
+    c=a+b;
+    d=a*b;
 
-    cout << c << endl;
+    c.~Bigint_extended();
+    c=a;
+
+
+    cout << "Dodawanie: " << c << endl;
+    cout << "Mnozenie: " << d << endl;
 }
