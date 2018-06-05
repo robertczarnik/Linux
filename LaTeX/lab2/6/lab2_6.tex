@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt]{book}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[polish]{babel}
+
+\sloppy
+
+
+\begin{document}     
+
+\section*{Zastosowania geometryczne całki oznaczonej} 
+
+
+\paragraph{Obliczanie długości łuku:}
+Jeżeli krzywa wyznaczona jest równaniem $y=f(x)$, przy czym \mbox{funkcja}
+$f(x)$ ma w przedziale $[a,b]$ ciągłą pochodną, to {\em długość łuku} w tym
+przedziale wyraża się wzorem: $$L=\int_{a}^{b}\sqrt{1+|f'(x)|^{2}}dx$$
+
+
+\paragraph{Obliczanie objętości bryły obrotowej:}
+Jeżeli $f(x)$ jest funkcją ciągłą i nieujemną na na przedziale $[a,b]$, to
+objętość bryły obrotowej powstałej z obrotu wokół osi $Ox$ linii o równaniu
+$y=f(x)$, gdzie $x\in[a,b]$, wyraża się wzorem:
+$$V={\pi}\int_{a}^{b}f^{2}(x)dx$$
+
+
+\paragraph{Obliczanie pola powierzchni bryły obrotowej:}
+Jeżeli $f(x)$ jest funkcją ciągłą i nieujemną na przedziale $[a,b]$ i ma w
+tym przedziale ciągłą pochodną, to pole powierzchni bryły obrotowej powstałej z
+obrotu wokół osi $Ox$ linii o równaniu  $y=f(x)$, gdzie $x \in [a,b]$, wyraża się
+wzorem:
+$$S=2\pi\int_{a}^{b}f(x)\sqrt{1+|f'(x)|^{2}}dx$$
+
+\end{document}

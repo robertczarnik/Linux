@@ -1,0 +1,13 @@
+\documentclass[a4paper,12pt]{book}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[polish]{babel}
+\newtheorem{tw}{Twierdzenie}
+\sloppy
+\begin{document}     
+\begin{tw}
+\end{tw}
+\end{document}

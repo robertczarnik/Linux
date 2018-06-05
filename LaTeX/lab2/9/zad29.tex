@@ -1,0 +1,45 @@
+\documentclass[a4paper,4pt]{article}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage[polish]{babel}
+\newtheorem{tw}{\hspace{12mm}\em{Przykład}}[section]
+\usepackage{times}
+\usepackage{latexsym}
+\sloppy
+
+\begin{document}
+\setcounter{section}{8}
+\setcounter{tw}{2}
+\begin{tw}  Wykażemy, że funkcje: \end{tw}
+$$\centering  \begin {array}{c} 
+$ f(x)=-arc tg x$ \hspace{7mm} i \hspace{7mm}  $g(x)=arc cos $\frac{x}{\sqrt{1+x^2}}}$ $ \end{array} $$
+różnią się jedynie o stałą $B=-\frac{\pi}{2}$.\\
+
+Dla każdego x \in \textbf{R}, mamy:\\ 
+
+$$\centering  \begin {array}{c} 
+$f'(x)=$\frac{-1}{1+x^2}\\ \\
+$g'(x)=$\frac{-1}{\sqrt{1-\left(\frac{x}{\sqrt{1+x^2}}\right )^2}}$\cdot \frac{\sqrt{1+x^2}-\frac{2x^2}{2\sqrt{1+x^2}}}{1+x^2}=\frac{-1}{1+x^2}$; $$ 
+\end{array} $$
+Oznacza to, że:\\
+$$\centering  \begin {array}{c} 
+$f'(x)=g'(x)$ \end{array} $$
+więc na podstawie ostatniego wniosku możemy napisać:\\
+$$\centering  \begin {array}{c} 
+$\forall_x \in \textbf{R}: f(x)=g(x)+B. \end{array} $$
+Jednocześnie, np. dla x=0$, mamy:\\
+
+$$\centering f(0)=0, g(0)=\frac{\pi}{2},$$
+%$f(0)=0, g(0)=\frac{\pi}{2},$\\
+zatem nietrudno zauważyć, że ostatnia równość ma miejsce, gdy $B=-\frac{\pi}{2}$
+
+\right) 
+$
+
+
+
+\end{document}

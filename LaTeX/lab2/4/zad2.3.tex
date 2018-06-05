@@ -1,0 +1,42 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{times}
+\usepackage{anysize}
+\marginsize{1.4cm}{1.4cm}{1.5cm}{1.5cm}
+\sloppy 
+\theoremstyle{definition}
+\newtheorem{df}{Definicja}
+\begin{document}
+	Istnieje ¶cis³y zwi±zek miêdzy rozk³adem macierzy A na macierze L i U a metod± eliminacji Gaussa. Mo¿na wykazaæ, ¿e elementy kolejnych kolumn macierzy L s± równe wspó³czynnikom przez które mno¿one s± w kolejnych krokach wiersze uk³adu równañ celem dokonania eliminacji niewiadomych w odpowiednich kolumnach. Natomiast macierz U jest równa macierzy trójk±tnej uzyskanej w eliminacji Gaussa.
+	$$\mathbf{[A|b]} = \left [ \begin{array}{rrrr}
+	2&2&4&4\\
+	1&2&2&4\\
+	1&4&1&1\\
+	\end{array} \right]
+	= \left [ \begin{array}{rrrr}
+	2&2&4&4\\
+	0&1&0&2\\
+	0&3&-1&-1\\
+	\end{array} \right]
+	= \left [ \begin{array}{rrrr}
+	2&2&4&4\\
+	0&1&0&2\\
+	0&0&-1&-7\\
+	\end{array} \right]
+	$$
+	$$\mathbf{L} = \left [ \begin{array}{rrr}
+	1&0&0\\
+	\frac{1}{2}&1&0\\
+	\frac{1}{2}&3&1\\
+	\end{array} \right]
+	\mathbf{U} = \left [ \begin{array}{rrrr}
+		2&2&4&4\\
+		0&1&0&2\\
+		0&0&-1&-7\\
+	\end{array} \right]
+	$$
+\end{document}

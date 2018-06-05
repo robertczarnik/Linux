@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{book}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[polish]{babel}
+\newtheorem{df}{Definicja}
+\newtheorem{tw}{Twierdzenie}
+\newtheorem*{Dowód}{\textmd{\textit{Dowód}}}
+\newtheorem{wns}[tw]{\textmd{\textit{Wniosek}}}
+\sloppy
+\begin{document}     
+\begin{df}
+Niech $N=(P,T,F,W,M_0)$ będzie siecią uogólnioną. Sieć $N$ nazywamy \textit{stabilną} wtedy i tylko wtedy, gdy dla każdego miejsca $p$ sieci $N$, istnieje liczba całkowita dodatnia $n$ taka, że dla wszystkich znakowań $M$, osiągalnych ze znakowania początkowego $M_0$, ważona suma znaczników jest stała. Jeżeli warunek ten zachodzi jedynie dla właściwego podzbioru $P'$ zbioru miejsc $P$ sieci $N$, to sieć nazywamy częściowo stabilną.
+\end{df}
+\begin{tw}
+Niech $N=(P,T,F,W,M_0)$ będzie siecią uogólnioną. Wtedy dla każdego $P$-niezmiennika $I$ sieci $N$ oraz każdego znakowania $M \in \left[M_0\right>$ spełniony jest warunek $M \circ I = M_0 \circ I$.  
+\end{tw}
+\begin{Dowód}
+	Niech $M \in \left[M_0\right>$ i niech tranzycje $t_1,t_2,\dots,t_n \in T$ będą takie, że $M_0 \left[t_1,t_2,\dots,t_n\right> M$. Warunek ten możemy zapisać w postaci: $M = M_0 + (t_1+t_2+\dots+t_n)$.Ponieważ $I$ jest $P$-niezmiennikiem, więc spełniony jest warunek: $t_i \circ I = 0$ dla $i = 1,2,\dots,n$. Otrzymujemy stąd, że: $M \circ I = (M_0 + t_1+t_2+\dots+t_n) \circ I = M_0 \circ I + t_1 \circ I + t_2 \circ I + \dots + t_n \circ I = M_0 \circ I$.
+{\Box} \end{Dowód}
+
+\begin{wns}
+Niech $N=(P,T,F,W,M_0)$ będzie żywą siecią uogólnioną i niech $T \colon P \to \mathbb{Z}$ będzie wektorem miejsc. Wektor $I$ jest $P$-niezmiennikiem wtedy i tylko wtedy, gdy $M \circ I = M_0 \circ I$ dla wszystkich $M \in \left[M_0\right>$.
+\end{wns}
+\end{document}

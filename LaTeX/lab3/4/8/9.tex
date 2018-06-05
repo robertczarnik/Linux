@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\usetikzlibrary{calc,through,backgrounds,positioning,fit}
+\usetikzlibrary{shapes,arrows,shadows}
+
+\begin{document}
+	
+	\tikzstyle{leaf}=[isosceles triangle,draw,shape border rotate=90,isosceles triangle stretches=true, minimum height=12mm,minimum width=12mm,inner sep=0,yshift={-20mm}]
+	
+	\begin{tikzpicture}[scale=1,inner sep=0.4mm]
+	\node  [leaf] [circle, draw] at (0,1) {$\large{a,c}$};
+	\draw [thick, -latex] (0,-1.2)--(-1.3,-2); 
+	\draw [thick, -latex] (0,-1.2)--(1.3, -1.9); 
+	\draw [thick, -latex] (0,0.4)--(0,-0.4); 
+	
+	\node  [leaf] [circle, fill=white] at (0,1) {$\large{a,c}$};
+	
+	\node [leaf] (e3) at (-1.3,-1.) {Left};
+	\node [leaf] (e3) at (1.3,-1.05) {Right};
+	\node at (-1.3, -0.6) {$a(u) \geq c$}; 
+	\node at (1.3, -0.6) {$a(u) < c$}; 
+	\node at (0.0, 0.6) {$u$};
+	...
+	\end{tikzpicture}
+\end{document}

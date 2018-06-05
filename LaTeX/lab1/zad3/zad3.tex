@@ -1,0 +1,132 @@
+% !TeX spellcheck = en_US
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}   % lub utf8
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{enumerate}
+\usepackage{times}
+\usepackage{geometry} 
+
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{3cm}{3cm}{3cm}{3cm}
+\sloppy
+
+\begin{document}
+\section*{\Large Komunikacja w sieci}}
+
+W modelu ISO-OSI (Open System Interconnection Reference Model) całą procedurę przesyłania komunikatu podzielono na siedem warstw zajmujących się odrębnymi zagadnieniami. W każdej warstwie obowiązują szczegółowe zasady wymiany informacji, zwane protokołem.
+
+\begin{table}[h]
+\label{tab:tabelka}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline Nazwa warstwy & Nazwa warstwy\\ \hline \hline
+aplikacji & 7  \\ \hline
+prezentacji & 6 \\	\hline
+sesji & 5 \\ \hline \hline
+transportu & 4 \\ \hline
+sieci& 3 \\ \hline
+łącza danych & 2 \\ \hline
+fizyczna & 1 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+Dzięki warstwowej strukturze model OSI jest bardzo elastyczny i daje się stosować do komunikacji zarówno w sieciach lokalnych, jak i rozległych. Podział na warstwy zwiększa jednak czas przesłania komunikatu i wydłuża go, gdyż każda warstwa dodaje własne informacje. Dlatego w szybkich sieciach lokalnych najniższe trzy warstwy zlewa się w jedną. Nie przeszkadza to w komunikowaniu się tym sieciom z innymi sieciami na wyższych poziomach.
+\begin{verse}
+\textbf{Warstwa 1: FIZYCZNA} – Jest ona odpowiedzialna za przesyłanie strumieni bitów. Odbiera ramki danych z warstwy 2 i przesyła szeregowo, bit po bicie, całą ich strukturę oraz zawartość. Jest ona również odpowiedzialna za odbiór kolejnych bitów przychodz acych strumieni danych. Strumienie te są  ̨ następnie przesyłane do warstwy łącza danych w celu ich ponownego ukształtowania.
+
+
+\textbf{Warstwa 2: ŁĄCZA DANYCH} – Jest ona odpowiedzialna za końcow a  ̨ zgodność przesyłaniadanych. W zakresie zadań związanych z przesyłaniem, warstwa łącza danych jest odpowiedzialna za upakowanie instrukcji, danych itp. w tzw. ramki. Ramka jest strukturą właściwą dla warstwy łącza danych, która zawiera ilość informacji wystarczającą do pomyślnego przesyłania danych przez sieć lokalną do ich miejsca docelowego. Pomyślna transmisja danych zachodzi wtedy, gdy dane osiągającą miejsce docelowe w postaci niezmienionej w stosunku do postaci, w której zostały wysłane. Ramka musi więc zawierać mechanizm umożliwiający weryfikowanie integralności jej zawartości podczas transmisji. W wielu sytuacjach wysyłane ramki mogą ̨ nie osiągnąć miejsca docelowego lub ulec uszkodzeniu podczas transmisji. Warstwa łącza danych jest odpowiedzialna za rozpoznawanie i naprawę każdego takiego błędu. Warstwa łącza danych jest również odpowiedzialna za ponowne składanie otrzymanych z warstwy fizycznej strumieni binarnych i umieszczanie ich w ramkach. Ze wzgl ̨edu na fakt przesyłania zarówno struktury, jak i zawartości ramki, warstwa łącza danych nie tworzy ramek od nowa. Buforuje ona przychodzące bity dopóki nie uzbiera w ten sposób całej ramki.
+
+\textbf{Warstwa 3: SIECI} – Warstwa sieci jest odpowiedzialna za określenie trasy transmisji między komputerem-nadawcą, a komputerem-odbiorcą.Warstwa ta nie ma żadnych wbudowanych mechanizmów korekcji błędów i w związku z tym musi polegać na wiarygodnej transmisji końcowej warstwy łącza danych. Warstwa sieci używana jest do komunikowania się z komputerami znajdujacymi
+si ̨e poza lokalnym segmentem sieci LAN. Umożliwia im to własna architektura trasowania, niezależna od adresowania fizycznego warstwy 2. Korzystanie z warstwy sieci nie jest obowi azkowe.Wymagane jest jedynie wtedy, gdy komputery komunikujace się znajdują się w różnych segmentach sieci przedzielonych routerem. Najbardziej znanym protokołem warstwy sieci jest protokół IP (Internet Protocol) obowiązujący w sieci Internet. Dzieli on przekazywany komunikat na odpowiedniej wielkości (64 KB) pakiety i przesyła je od komputera do komputera w kierunku komputera docelowego. IP nie gwarantuje dostarczenia pakietu na miejsce. Nie sprawdza on również, czy pakiet,który dotarł już do celu, nie został czasem przekłamany. Docieraniem pakietów na miejsce i ich poprawnością musi się zajmować wyższa warstwa transportu. IP współpracuje z wieloma (do 256) protokołami warstwy transportu (takimi jak TCP, UDP czy ICMP). Każdy pakiet ma w swym nagłówku informację o tym, którego typu protokołu transportu dotyczy.
+
+\textbf{Warstwa 4: TRANSPORTU} – Warstwa ta pełni funkcję podobna do funkcji warstwy łącza w tym sensie, że jest odpowiedzialna za końcową integralność transmisji. Jednak w odróżnieniu od warstwy łącza danych – warstwa transportu umożliwia t ̨e usług ̨e również poza lokalnymi segmentami sieci LAN. Potrafi bowiem wykrywać pakiety, które zostały przez routery odrzucone i automatycznie generować żadanię ich ponownej transmisji. Warstwa transportu identyfikuje oryginalną sekwencję pakietów i ustawia je w oryginalnej kolejności przed wysłaniem ich zawartości do warstwy sesji.TCP (Transmission Control Protocol) jest najbardziej znanym protokołem warstwy transportu. Połączenie w TCP jest nawiązywane przez trzykrotne „podanie sobie r ̨eki”. Niezawodność przesyłania danych jest osiągnięta dzięki numerowaniu pakietów, stosowaniu potwierdzeń, ponownej transmisji, jeśli nie było potwierdzenia przez zbyt długi czas. W celu zwi ̨ekszenia przepustowości TCP stosuje tzw. metod ̨e „przesuwaj acych si ̨e okienek”,która umożliwia wysyłanie kilku pakietów bez czekania na ich potwierdzenie.
+
+\textbf{Warstwa 5: SESJI} – Jest ona rzadko używana; wiele protokołów funkcje tej warstwy doł acza
+̨
+do swoich warstw transportowych. Zadaniem warstwy sesji jest zarz adzanie
+̨
+przebiegiem
+komunikacji podczas poł aczenia
+̨
+mi ̨edzy dwoma komputerami. Przepływ tej komunikacji
+nazywany jest sesj a.  ̨ Sesja może służyć do doł aczenia
+̨
+użytkownika do odległego systemu,
+albo do przesyłania zbiorów mi ̨edzy różnymi maszynami (np. polecenie ftp). Jeśli warstwa
+transportu jest zawodna, zadaniem warstwy sesji jest też ponowne nawi azanie
+̨
+poł aczenia
+̨
+w przypadku jego przerwania. Warstwa ta określa, czy komunikacja może zachodzić w
+jednym, czy obu kierunkach. Gwarantuje również zakończenie wykonywania bież acego
+̨
+ż adania
+̨
+przed przyj ̨eciem kolejnego.
+Jednym z najbardziej popularnych protokołów warstwy sieci jest protokół RPC (Remote
+Procedure Call – zdalne wywołanie procedury). Protokół ten zajmuje si ̨e wysyłaniem przez
+sieć ż adań
+̨
+od klientów do serwerów i odbieraniem odpowiedzi. RPC musi umieć zlokalizo-
+wać komputer, na którym wykonuje si ̨e serwer, reagować w przypadku, gdy serwera nie ma
+oraz rejestrować pojawienie si ̨e nowych serwerów. Ponieważ program serwera może być
+wykonywany na komputerze o zupełnie innej architekturze niż architektura komputera, na
+2którym jest wykonywany program klienta, protokół RPC musi zadbać o odpowiednie prze-
+kształcenie przesyłanych danych. Jeśli odpowiedź na wysłane ż adanie
+̨
+nie nadchodzi zbyt
+długo, RPC ponawia wysłanie ż adania.
+̨
+Musi przy tym zadbać, by to ponowione ż adanie
+̨
+nie
+zostało zrozumiane jako zupełnie nowe. Za pomoc a  ̨ protokołu RPC można także realizować
+rozgłaszanie, czyli wysłanie ż adania
+̨
+jednocześnie do wielu serwerów. Klient ma wówczas
+kilka możliwości: może czekać na reakcje od wszystkich serwerów, gdy do dalszej pracy
+potrzebuje wszystkich usług; może czekać tylko na jeden serwer, jeśli wysłał komunikat
+typu „niech mi to ktoś zrobi”; może też nie czekać w ogóle, jeśli celem było jedynie poin-
+formowanie o czymś serwerów. Protokół RPC jest ogólnie uznan a  ̨ metod a  ̨ komunikowania
+si ̨e w systemach typu klient-serwer.
+
+\textbf{Warstwa 6: PREZENTACJI} – Warstwa prezentacji jest odpowiedzialna za zarz adzanie
+̨
+sposo-
+bem kodowania wszelkich danych. Nie każdy komputer korzysta z tych samych schematów
+kodowania danych, wi ̨ec warstwa prezentacji odpowiedzialna jest za translacj ̨e mi ̨edzy nie-
+zgodnymi schematami kodowania danych. Warstwa ta może być również wykorzystywana
+do niwelowania różnic mi ̨edzy formatami zmiennopozycyjnymi, jak również do szyfrowa-
+nia i rozszyfrowywania wiadomości.
+W asymetrycznym systemie szyfrowania znajomość funkcji szyfruj acej
+̨ nie wystarcza do
+odgadni ̨ecia funkcji rozszyfrowuj acej.
+̨
+Funkcja szyfruj aca
+̨ S i funkcja deszyfruj aca
+̨ D maj a  ̨
+tak a  ̨ własność, że dla każdego komunikatu K, D(S(K)) = K. Rozwi azanie
+̨
+problemu
+elektronicznych podpisów stało si ̨e możliwe dzi ̨eki wynalezieniu funkcji, które maj a  ̨ także
+własność odwrotn a  ̨ S(D(K)) = K. W kryptosystemie asymetrycznym każda ze stron ma
+dwa klucze: publiczny do szyfrowania i tajny do odszyfrowywania. Zaszyfrować i wysłać
+komunikat może zatem każdy, ale odczytać go potrafi tylko adresat. Informacj a  ̨ o kluczach
+powinien zarz adzać
+̨
+specjalny proces-centrala, którego klucz publiczny jest jedynym ogól-
+nie dost ̨epnym. Aby zdobyć informacj ̨e o kluczu osoby X, wysyła si ̨e zapytanie do centrali
+(nieszyfrowane), a otrzymuje si ̨e zaszyfrowan a  ̨ odpowiedź, któr a  ̨ można odszyfrować klu-
+czem publicznym.
+
+\textbf{Warstwa 7: APLIKACJI} – Pełni ona rol ̨e interfejsu pomi ̨edzy aplikacjami użytkownika a usłu-
+gami sieci. Warstw ̨e t ̨e można uważać za inicjuj ac
+̨ a  ̨ sesje komunikacyjne. Protokóły war-
+stwy aplikacji to np.: HTTP, HTTPS, FTP, SSH, Telnet, POP3, SMTP.
+
+\end{verse}
+\end{document}

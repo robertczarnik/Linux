@@ -1,0 +1,31 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[latin2]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{anysize}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{makecell}
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{3cm}{3cm}{3cm}{3cm}
+\sloppy
+\begin{document}
+\begin{table}[h]
+\begin{center}
+\label{tab:warunkiTerenowe}
+\begin{tabular}{|l l|l l|}\hline
+Command&Output&Command&Output \\ \hline
+\textbackslash k\{a\}&\k{a}&\textbackslash k\{A\}&\k{A} \\ 
+\textbackslash 'c&\'c&\textbackslash 'C&\'C \\ 
+\textbackslash k\{e\}&\k{e}&\textbackslash k\{E\}&\k{E} \\
+\textbackslash \{\}&\l{}&\textbackslash L\{\}&\L{} \\	
+\textbackslash 'o&\'o&\textbackslash 'O&\'O \\ 
+\textbackslash 'n&\'n&\textbackslash 'N&\'N \\
+\textbackslash 's&\'s&\textbackslash 'S&\'S \\\'z
+\textbackslash 'z&\'z&\textbackslash 'Z&\'Z \\
+\textbackslash .z&\.z&\textbackslash .Z&\.Z \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

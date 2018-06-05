@@ -1,0 +1,29 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[latin2]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{anysize}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{makecell}
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{3cm}{3cm}{3cm}{3cm}
+\sloppy
+\begin{document}
+\begin{table}[!htb]
+\begin{center}
+\label{tab:warunkiTerenowe}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\multicolumn{9}{|c|}{Paired Samples Test} \\  \hline
+%\makecell[c]{Type of \\ test}&Comparison & \multicolumn{5}{c|}{Paired Differences} & t value &d.f \\ \hline
+\multirow{5}{1.5cm}{\makecell[c]{Type of \\ test}}&\multirow{5}{2cm}{Comparison}&\multicolumn{5}{p{6.72cm}|}{\centering Paired Samples Test} & \multirow{5}{1.2cm}{\centering t value} & \multirow{5}{1.2cm}{\centering d.f} \\ 
+\cline{3-7} & & \multirow{2}{1cm}{Mean} & \multirow{2}{1.5cm}{\makecell[c]{Std\\Devation}} & \multirow{2}{1cm}{ \centering Std\\Error\\Mean} &\multicolumn{2}{p{3cm}|}{ \makecell[c]{95\% Confidence\\ Interval of the \\difference} } &&\\ \cline{6-7}
+&&&&&Lower&Upper&&\\ \hline
+ %&  &  &  &  &  &  &  &  \\ \hline95% Confidence Interval of the difference
+ %&  &  &  &  &  &  &  &  \\ \hlineMean
+Pair 1 & \makecell[c]{Hybrid GA\\Path Cost and\\GA Path Cost} & -507.00 & 54.01 & 31.18 & -641.17 & -372.83 & -16.26 & 2.00  \\ \hline
+     
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

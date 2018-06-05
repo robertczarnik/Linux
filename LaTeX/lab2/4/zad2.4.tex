@@ -1,0 +1,117 @@
+\documentclass[a4paper,11pt,twoside]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{times}
+\usepackage{anysize}
+
+\marginsize{1.5cm}{1.5cm}{1.5cm}{1.5cm}
+\sloppy 
+
+\theoremstyle{definition}
+\newtheorem{df}{Definicja}
+\newtheorem{tw}{Twierdzenie}
+
+
+\begin{document}
+
+\section{Algebra Boole'a}
+
+Metoda wnioskowania boolowskiego pochodzi z 1847 roku od Boole'a i~by³a rozwijana przez innych matematyków koñca XIX-go wieku. Idee te zosta³y ponownie odkryte w~kontek¶cie nowych zastosowañ w~naukach przyrodniczych koñca XX-go wieku.
+
+\begin{df}
+Niech $X$ bêdzie dowolnym zbiorem, a~$n$ dowoln±, ustalon± liczb± naturaln±. Dowolne przekszta³cenie $d\colon X^n \to X$ nazywamy {\em $n$-argumentowym dzia³aniem} okre¶lonym w~zbiorze $X$, przy czym {\em dzia³aniem zero-argumentowym} nazywamy dowolnie ustalony element zbioru $X$.
+\end{df}
+\begin{df}
+Niech $X$ bêdzie dowolnym zbiorem, a~$n$ dowoln±, ustalon± liczb± naturaln±. {\em Struktur± algebraiczn±} nazywamy strukturê sk³adaj±c± siê ze zbioru $X$ wraz z~pewn± liczb± dzia³añ $d_i$ ($i = 1,\dots,n$) okre¶lonych w~tym zbiorze. Strukturê algebraiczn± zapisujemy w~postaci uk³adu $(X,d_1,\dots,d_n)$.
+\end{df}
+\begin{df}
+Niech $(B,\vee,\wedge,\neg,0,1)$ bêdzie struktur± algebraiczn±, w~której $B$ jest niepustym zbiorem, $\vee$ i~$\wedge$ s± dzia³aniami dwuargumentowymi, $\neg$ jest dzia³aniem jednoargumentowym, a~0 i~1 dzia³aniami zero-argumentowymi. Strukturê tê nazywamy {\em algebr± Boole'a}, je¿eli dzia³ania $\vee,\wedge,\neg,0,1$ s± tak okre¶lone, ¿e spe³niaj± nastêpuj±ce cztery warunki:
+\end{df}
+\begin{enumerate}
+\item Dzia³ania $\vee$ i~$\wedge$ s± ³±czne i~przemienne.
+
+\item Dzia³anie $\vee$ jest rozdzielne wzglêdem $\wedge$ i~odwrotnie.
+
+\item Dla dowolnego $a \in B$: 
+\\$a \vee (\neg a)=1$
+\\$a \wedge (\neg a)=0$
+\\$a \wedge 1=a$
+
+\item Elementy 0 i 1 s± ró¿ne.
+\end{enumerate}
+
+
+Elementy zbioru $B$ nazywamy {\em sta³ymi boolowskimi}, za¶ ka¿d± zmienn± przyjmuj±c± warto¶ci ze zbioru $B$ nazywamy {\em zmienn± boolowsk±}.\\
+{\bf Prawa poch³aniania:}
+\\$a \vee a=a$
+\\$a \vee (a \wedge b)=a$
+\\$a \wedge a=a$
+\\$a \wedge (a \vee b)=a$\\
+{\bf Prawa de Morgana:} 
+\\$\neg (a \vee b)=(\neg a)\wedge(\neg b)$
+\\$\neg (a \wedge b)=(\neg a)\vee(\neg b)$\\
+
+{\em Dwuwarto¶ciow± algebr± Boole'a} ($\mathit{BA}$) nazywamy algebrê Boole'a dla której $B=\{0,1\}$, za¶ dzia³ania $\vee,\wedge,\neg$ odpowiadaj± logicznej alternatywie, koniunkcji i~negacji.
+
+Sta³e boolowskie 0 i~1 wraz ze wszystkimi zmiennymi boolowskimi algebry $\mathit{BA}$ i~ich zaprzeczeniami nazywamy {\em litera³ami boolowskimi}. 
+
+\begin{df}
+	Niech $\mathit{BA} = (B,\vee,\wedge,\neg,0,1)$ bêdzie dwuwarto¶ciow± algebr± Boole'a. {\em Zbiór wyra¿eñ (formu³) boolowskich}  algebry $\mathit{BA}$ jest najmniejszym zbiorem spe³niaj±cym nastêpuj±ce dwa warunki:
+\end{df}
+\begin{enumerate}
+\item Dowolna sta³a lub zmienna boolowska algebry $\mathit{BA}$ nale¿y do zbioru formu³ boolowskich algebry $\mathit{BA}$.
+\item Je¶li $a$, $b$ s± formu³ami boolowskimi algebry $\mathit{BA}$, to równie¿ $\neg a$, $a \wedge b$ i~$a \vee b$ s± formu³ami boolowskimi algebry $\mathit{BA}$.
+\end{enumerate}
+Warto¶ciowanie $W$ wyra¿eñ (formu³) boolowskich algebry $\mathit{BA}$ jest funkcj± przyporz±dkowuj±c± ka¿demu wyra¿eniu boolowskiemu liczbê ze zbioru $\{0,1\}$. Dla dowolnego wyra¿enia boolowskiego $b$, liczbê $W(b)$ nazywamy warto¶ci± wyra¿enia $b$ i~obliczamy j± w zwyk³y sposób, tzn. poprzez wykonanie wszystkich dzia³añ wystêpuj±cych w~wyra¿eniu $b$ zgodnie z~ich okre¶leniem oraz w~kolejno¶ci wskazywanej przez nawiasy wystêpuj±ce w~wyra¿eniu $b$.
+\begin{df}
+Niech $\mathit{BA} = (B,\vee,\wedge,\neg,0,1)$ bêdzie dwuwarto¶ciow± algebr± Boole'a, a~$n$ dowoln±, ustalon± liczb± naturaln±. Dowoln± funkcjê $f\colon B^n \to B$ nazywamy {\em funkcj± boolowsk± $n$ zmiennych}.
+\end{df}
+
+Funkcjê boolowsk± okre¶lamy za pomoc± odpowiedniego wyra¿enia boolowskiego. Mo¿na tak¿e opisywaæ funkcjê boolowsk± za pomoc± tabelki zawieraj±cej wszystkie mo¿liwe argumenty ze zbioru $\{0,1\}^n$ wraz z~odpowiadaj±cymi im warto¶ciami ze zbioru $\{0,1\}$.
+
+Przyk³ad: $f(x_1,x_2,x_3) = (x_1 \vee x_2) \wedge (\neg x_2 \vee x_3)$.
+\begin{tw}
+Funkcjê boolowsk± $n$-zmiennych $f$ mo¿na przedstawiæ w~dwóch postaciach:
+\end{tw}
+\begin{enumerate}
+\item $f(x)=\bigvee (x_1^{a_1} \wedge \dots \wedge x_n^{a_n})$, gdzie $a=(a_1, \dots ,a_n)$ przebiega zbiór $f^{-1}(1)\subseteq \{0,1\} ^{n}$
+\item $f(x)=\bigwedge (x_1^{a_1} \vee \dots \vee x_n^{a_n})$, gdzie $a=(a_1, \dots ,a_n)$ przebiega zbiór $f^{-1}(0)\subseteq \{0,1\} ^{n}$
+\end{enumerate}
+przy czym oznaczenie $x_i^{a_i}$ jest równe $x_i$, je¶li $a_i=1$ i~$\neg x_i$, je¶li $a_i=0$.
+
+Postaæ pierwsz± nazywamy {\em alternatywn± postaci± normaln±} (disjunctive normal form) i~oznaczamy przez $\mathit{DNF}_f$. Postaæ drug± nazywamy {\em koniunkcyjn± postaci± normaln±} (conjunctive normal form) i~oznaczamy przez $\mathit{CNF}_f$.\\
+
+Z powodów technicznych szczególnie atrakcyjna jest sytuacja, gdy do przedstawienia funkcji boo\-lowskiej wystarcz± dwa tzw. poziomy logiczne: poziom koniunkcji (na którym wystêpuje koniunkcja sta³ych lub zmiennych boolowskich) i~poziom alternatywy (gdzie wyra¿enia koniunkcyjne z~pierwszego poziomu tworz± alternatywê). Tak± postaæ funkcji boolowskiej nazywamy {\em wielomianem boolowskim}.
+\begin{df}
+	Niech $f$ bêdzie funkcj± boolowsk± $n$-zmiennych.
+\end{df}
+\begin{enumerate}  \itemsep1pt
+\item {\em Jednomianem boolowskim} (monom) nazywamy dowolne wyra¿enie boolowskie bêd±ce koniunkcj± litera³ów boolowskich. {\em Kosztem obliczeniowym} jednomianu boolowskiego nazywamy liczbê litera³ów boolowskich tworz±cych jednomian boolowski.
+\item {\em Wielomianem boolowskim} (polynomial) nazywamy dowolne wyra¿enie boolowskie bêd±ce alternatyw± jednomianów boolowskich. {\em Kosztem obliczeniowym} wielomianu boolowskiego nazywamy sumê arytmetyczn± kosztów obliczeniowych wszystkich jednomianów boolowskich tworz±cych wielomian boolowski.
+\item Wielomian boolowski $p$ {\em oblicza funkcjê boolowsk±} $f$ wtedy i~tylko wtedy, gdy\\ $\forall x \in f^{-1}(B)\colon p(x) = f(x)$.
+\item Wielomian boolowski $p$ nazywamy {\em wielomianem boolowskim o~najmniejszym koszcie obliczeniowym} dla funkcji boolowskiej $f$ wtedy i~tylko wtedy, gdy $p$ oblicza $f$ i~nie istnieje inny wielomian boolowski obliczaj±cy $f$ i~maj±cy mniejszy koszt obliczeniowy ni¿ $p$.
+\end{enumerate}
+
+Proces prowadz±cy do przedstawienia funkcji boolowskiej w~postaci wielomianu boolowskiego o~najmniejszym koszcie obliczeniowym nazywamy {\em minimalizacj± funkcji boolowskiej}. Definicjê wielomianu boolowskiego obliczaj±cego dan± funkcje boolowsk± spe³nia postaæ DNF tej funkcji, a~zatem dla ka¿dej funkcji boolowskiej istnieje chocia¿ jeden wielomian boolowski obliczaj±cy tê funkcjê. Zatem istnieje równie¿ wielomian o~najmniejszym koszcie obliczeniowym. 
+\begin{df}
+	Niech $f$ bêdzie funkcj± boolowsk± $n$-zmiennych. 
+\end{df}
+Funkcjê boolowsk± $f_{imp}(x_1,\dots,x_n) = x_{i_1}^{a_1} \wedge \dots \wedge x_{i_k}^{a_k}$, gdzie $\{x_{i_1},\dots,x_{i_k}\} \subseteq \{x_{1},\dots,x_{n}\}$ oraz $a_i \in \{0,1\}$ (dla $i=1,\dots,k$), nazywamy {\em implikantem funkcji boolowskiej} $f$ wtedy i~tylko wtedy, gdy spe³niony jest nastêpuj±cy warunek: $\forall x \in B^n \colon (f_{imp}(x) = 1 \Rightarrow f(x) = 1)$.
+
+Zbiór wszystkich implikantów funkcji $f$ oznaczamy przez $I(f)$.
+\begin{df}
+Niech $f$ bêdzie funkcj± boolowsk± $n$-zmiennych i~niech implikant $g \in I(f)$.  Implikant $g$ nazywamy {\em implikantem pierwszym}, je¶li jest implikantem minimalnym ze wzglêdu na liczbê czynników. Zbiór wszystkich implikantów pierwszych funkcji $f$ oznaczamy przez $\mathit{PI}(f)$.
+\end{df}
+Implikant pierwszy danej funkcji boolowskiej ma tak± w³asno¶æ, ¿e odrzucenie z~niego dowolnego czynnika powoduje, ¿e powsta³a w~ten sposób funkcja nie jest ju¿ implikantem.
+
+\begin{tw}Wielomian boolowski o~najmniejszym koszcie obliczeniowym dla funkcji boolowskiej $f$ jest zbudowany tylko z~implikantów funkcji $f$.\end{tw}
+
+\end{document}
+
+
+
+
+
