@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.9)  6 JUN 2018 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.9)  6 JUN 2018 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**zad4_9.tex
-(./zad4_9.tex
+**rysunek4.tex
+(./rysunek4.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
@@ -393,6 +393,9 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
@@ -507,27 +510,8 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
 .tex
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.markings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen153
-\pgfdecoratedremainingdistance=\dimen154
-\pgfdecoratedinputsegmentcompleteddistance=\dimen155
-\pgfdecoratedinputsegmentremainingdistance=\dimen156
-\pgf@decorate@distancetomove=\dimen157
-\pgf@decorate@repeatstate=\count111
-\pgfdecorationsegmentamplitude=\dimen158
-\pgfdecorationsegmentlength=\dimen159
-)
-\tikz@lib@dec@box=\box60
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.markings.code.tex)) (./zad4_9.aux)
-\openout1 = `zad4_9.aux'.
+))) (./rysunek4.aux)
+\openout1 = `rysunek4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -541,20 +525,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 10.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen160
-\scratchbox=\box61
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\scratchcounter=\count111
+\scratchdimen=\dimen153
+\scratchbox=\box60
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen161
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen154
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -595,31 +583,22 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
-
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./zad4_9.aux) ) 
+] (./rysunek4.aux) ) 
 Here is how much of TeX's memory you used:
- 15595 strings out of 494910
- 340850 string characters out of 6179837
- 390185 words of memory out of 5000000
- 18577 multiletter control sequences out of 15000+600000
- 4403 words of font info for 15 fonts, out of 8000000 for 9000
+ 15158 strings out of 494910
+ 325774 string characters out of 6179837
+ 381528 words of memory out of 5000000
+ 18147 multiletter control sequences out of 15000+600000
+ 6047 words of font info for 16 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,7n,82p,444b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ro
-bert/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on zad4_9.pdf (1 page, 28679 bytes).
+ 55i,5n,82p,407b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on rysunek4.pdf (1 page, 3166 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.21)  24 MAY 2018 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.9)  6 JUN 2018 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **zad7.tex
 (./zad7.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 32 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -26,19 +26,17 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-polish/polish.ldf
-Language: polish 2005/03/31 v1.2l Polish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
-Package babel Info: Making " an active character on input line 83.
-\pl@left=\dimen104
-\pl@down=\dimen105
-\pl@right=\dimen106
-\pl@temp=\dimen107
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -61,28 +59,28 @@ Package: anysize 1994/08/13 setting margin sizes
 document style option `anysize' loaded
 Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
 Version 1.0, Aug 13, 1994
-\@Leftmargin=\dimen108
-\@Rightmargin=\dimen109
-\@Topmargin=\dimen110
-\@Bottommargin=\dimen111
+\@Leftmargin=\dimen104
+\@Rightmargin=\dimen105
+\@Topmargin=\dimen106
+\@Bottommargin=\dimen107
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen112
+\bigstrutjot=\dimen108
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen113
-\extrarowheight=\dimen114
+\col@sep=\dimen109
+\extrarowheight=\dimen110
 \NC@list=\toks16
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-\rotheadsize=\dimen115
+\rotheadsize=\dimen111
 \c@nlinenum=\count88
 \TeXr@lab=\toks17
 ) (./zad7.aux)
@@ -124,13 +122,13 @@ Overfull \hbox (34.69635pt too wide) in paragraph at lines 16--27
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./zad7.aux) ) 
 Here is how much of TeX's memory you used:
- 1216 strings out of 494303
- 13845 string characters out of 6163272
- 70016 words of memory out of 5000000
- 4576 multiletter control sequences out of 15000+600000
+ 1135 strings out of 494910
+ 13087 string characters out of 6179837
+ 66993 words of memory out of 5000000
+ 4458 multiletter control sequences out of 15000+600000
  9870 words of font info for 26 fonts, out of 8000000 for 9000
- 392 hyphenation exceptions out of 8191
- 23i,16n,24p,271b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36 hyphenation exceptions out of 8191
+ 23i,16n,24p,271b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/
 texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
