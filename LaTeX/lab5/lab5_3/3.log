@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.21)  24 MAY 2018 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.9)  6 JUN 2018 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **3.tex
 (./3.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 32 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
 alone
@@ -582,31 +582,25 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
+(Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
+(Font)              <5> on input line 31.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./3.aux) ) 
 Here is how much of TeX's memory you used:
- 15158 strings out of 494303
- 325890 string characters out of 6163272
- 383933 words of memory out of 5000000
- 18183 multiletter control sequences out of 15000+600000
+ 15152 strings out of 494910
+ 325757 string characters out of 6179837
+ 382528 words of memory out of 5000000
+ 18140 multiletter control sequences out of 15000+600000
  6047 words of font info for 16 fonts, out of 8000000 for 9000
- 392 hyphenation exceptions out of 8191
- 55i,7n,82p,400b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36 hyphenation exceptions out of 8191
+ 55i,7n,82p,400b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on 3.pdf (1 page, 12348 bytes).
+Output written on 3.pdf (1 page, 12340 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.21)  24 MAY 2018 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.9)  6 JUN 2018 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**6.tex
-(./6.tex
+**2.tex
+(./2.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 32 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
 alone
@@ -397,15 +397,6 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalendar.code.tex
-File: tikzlibrarycalendar.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.3)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
-File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count111
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
@@ -519,38 +510,38 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
 .tex
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-))) (./6.aux)
-\openout1 = `6.aux'.
+))) (./2.aux)
+\openout1 = `2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
+\scratchcounter=\count111
 \scratchdimen=\dimen153
 \scratchbox=\box60
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count115
+\MPscratchCnt=\count114
 \MPscratchDim=\dimen154
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -591,24 +582,33 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./6.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./2.aux) ) 
 Here is how much of TeX's memory you used:
- 15349 strings out of 494303
- 332145 string characters out of 6163272
- 396841 words of memory out of 5000000
- 18364 multiletter control sequences out of 15000+600000
- 7125 words of font info for 17 fonts, out of 8000000 for 9000
- 392 hyphenation exceptions out of 8191
- 55i,7n,82p,400b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/tex
-live/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb>
-Output written on 6.pdf (1 page, 13195 bytes).
+ 15130 strings out of 494910
+ 325647 string characters out of 6179837
+ 382528 words of memory out of 5000000
+ 18118 multiletter control sequences out of 15000+600000
+ 6047 words of font info for 16 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 55i,7n,82p,400b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on 2.pdf (1 page, 25535 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
