@@ -1,0 +1,42 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage{amsfonts}
+\usepackage[english]{babel}
+\usepackage{xcolor}
+\usepackage{anysize}
+
+\newcommand{\fixme}[1]{\colorbox{yellow!50}{FIXME: {#1}}}
+
+\newcommand{\todo}[1]{\colorbox{red!20}{TODO: {#1}}}
+
+\newcommand{\myint}[3]{{\ensuremath{\int\limits_{#1}^{#2} {#3} dx}}}
+
+\def \R {$\mathbb{R}$}
+\def \N {$\mathbb{N}$}
+\def \tg {{\rm tg}}
+\def \ctg {{\rm ctg}}
+\def \agh {Akademia Gorniczo-Hutnicza}
+
+
+\begin{document}
+
+\fixme{123}
+
+\todo{kanapka}
+
+\myint{0}{2}{x^3}
+
+\N
+
+\R
+
+\tg
+
+\ctg
+
+{\agh} jest \agh.
+
+$\tg(x) = \frac{\sin(x)}{\cos(x)}$
+
+\end{document}

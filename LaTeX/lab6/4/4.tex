@@ -1,0 +1,55 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc,through,backgrounds,positioning,fit}
+\usetikzlibrary{shapes,arrows,shadows,calendar}
+
+\linespread{0.5}
+\usetheme{Frankfurt}
+
+\title{Beamer}
+\author{A. Iksinsk}
+\institute{Wydzial WAlilB \\
+Katedra Informatyki Stosowanej}
+\date{2015}
+
+\begin{document}
+
+\begin{frame}
+\titlepage	
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Algorytm}
+
+\onslide<1->\State $\triangleright$ \verb!ASSIGN! 
+\onslide<2->\State $\triangleright$ \verb!init(s)! = \verb!s0;! 
+\onslide<3->\State $\triangleright$ \verb!next(s)! \coloneqq \verb!case!
+
+\onslide<4->	\ForAll{$si \in s$}
+\onslide<5->		\ForAll{$tk \in T$}
+\onslide<6->		\State $\mathbi{V}_{ik} \gets \emptyset$
+\onslide<7->			\ForAll{$sj \in s$}
+\onslide<8->                        \If{$(M_i, S_i) \overset{tk}{\longrightarrow} (M_j, S_j)$}
+\onslide<9->                        \State $\mathbi{V}_{ik} \leftarrow \mathbi{V}_{ik} \cup \{sj\}$
+\onslide<10->                \EndIf
+        \EndFor
+                \State $\triangleright$ \verb!s! $=$ \verb!si! \verb! & action! $=$ \verb!tk!$\colon  \{\mathbi{V}_{ik}$ \verb!contents!\};
+\onslide<11->        \EndFor
+\EndFor
+\State $\triangleright$ \verb!esac;!
+
+
+\end{frame}
+ 
+ 
+\end{document}
