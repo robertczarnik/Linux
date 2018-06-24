@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/!!Studia/Semestr II/C++/egzamin_2017_1a/main.cpp" "D:/!!Studia/Semestr II/C++/egzamin_2017_1a/cmake-build-debug/CMakeFiles/egzamin_2017_1a.dir/main.cpp.obj"
+  "/home/robert/Linux/C++/EGZAMIN/egzamin_2017_1a/main.cpp" "/home/robert/Linux/C++/EGZAMIN/egzamin_2017_1a/cmake-build-debug/CMakeFiles/egzamin_2017_1a.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

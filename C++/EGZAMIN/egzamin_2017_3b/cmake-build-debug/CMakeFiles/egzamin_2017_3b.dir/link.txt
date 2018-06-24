@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/egzamin_2017_3b.dir/main.cpp.o  -o egzamin_2017_3b 

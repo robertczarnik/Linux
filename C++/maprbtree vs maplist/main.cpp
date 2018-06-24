@@ -1,121 +1,5 @@
 #include <iostream>
-#include <chrono>
-#include <ctime>
 using namespace std;
-
-template <typename key,typename value>
-class MAP_LIST;
-
-template <typename key,typename value>
-class Element2
-{
-    friend class MAP_LIST<key,value>;
-    Element2<key,value> *next;
-
-    Element2()
-    {
-        next = nullptr;
-    }
-
-public:
-    key first;
-    value second;
-};
-
-template <typename key,typename value>
-class MAP_LIST
-{
-public:
-    Element2<key,value> *head;
-
-    MAP_LIST()
-    {
-        head = nullptr;
-    }
-
-    ~MAP_LIST()
-    {
-        Element2<key,value> *node=head;
-
-        while(node != nullptr)
-        {
-            Element2<key,value> *tmp = node->next;
-            delete node;
-            node=tmp;
-        }
-
-        head = nullptr;
-    }
-
-    value& operator[](const key &o1)
-    {
-        Element2<key,value> *nowy,*wsk=head,*last=nullptr;
-
-        for(;wsk!=nullptr; wsk=wsk->next)
-        {
-            if(wsk->first==o1)
-            {
-                return wsk->second;
-            }
-            last=wsk;
-        }
-
-        nowy = new Element2<key,value>;
-        nowy->first=o1;
-        nowy->next = nullptr;
-
-        if(head == nullptr)
-        {
-            head=nowy;
-        }
-        else if(last != nullptr)
-        {
-            last->next=nowy;
-        }
-
-        return  nowy->second;
-    }
-
-    class iteratorek
-    {
-    public:
-        Element2<key,value> *wsk;
-
-        iteratorek()
-        {
-            wsk = nullptr;
-        }
-
-        bool operator!=(const iteratorek &o1) {
-            return wsk != o1.wsk;
-        }
-
-        iteratorek &operator++(int) {
-            wsk = wsk->next;
-            return *this;
-        }
-
-        Element2<key, value> *operator->() {
-            return wsk;
-        }
-
-    };
-
-    iteratorek begin()
-    {
-        iteratorek i;
-        i.wsk = head;
-        return i;
-    }
-
-    iteratorek end()
-    {
-        iteratorek i;
-        i.wsk = nullptr;
-        return i;
-    }
-
-};
 
 template <typename key,typename value>
 class MAP; // declaration
@@ -124,7 +8,7 @@ template <typename key,typename value>
 class Element
 {
     friend class MAP<key,value>;
-public:
+
     Element<key,value>  *parent;
     Element<key,value>  *left;
     Element<key,value>  *right;
@@ -146,9 +30,9 @@ public:
 template <typename key,typename value>
 class MAP
 {
-public:
     Element<key,value> *root;
 
+public:
     MAP()
     {
         root= nullptr;
@@ -157,6 +41,7 @@ public:
     ~MAP()
     {
         DeleteNode(root);
+        root = nullptr;
     }
 
     void DeleteNode(Element<key,value> *node)
@@ -177,9 +62,10 @@ public:
         }
 
         delete node;
+        node = nullptr;
     }
 
-    void RotateLeft(Element<key,value> *x) //OK
+    void RotateLeft(Element<key,value> *x)
     {
         Element<key,value> *y;
 
@@ -265,7 +151,7 @@ public:
         Element<key,value> *wynik=Z;
 
         while((Z != root) && (Z->parent->colour == 'R'))
-        {//cout << "hi" << endl;
+        {
             if(Z->parent == Z->parent->parent->left)
             {
 
@@ -274,7 +160,6 @@ public:
                 {
                     if (uncle->colour == 'R')  // Przypadek 1
                     {
-                        //cout << "Z-first_przyp1 " << Z->first << endl;
                         Z->parent->colour = 'B';
                         uncle->colour = 'B';
                         Z->parent->parent->colour = 'R';
@@ -285,7 +170,6 @@ public:
 
                 if(Z == Z->parent->right) // Przypadek 2
                 {
-                    //cout << "Z-first_przyp2 " << Z->first << endl;
                     Z = Z->parent;
                     RotateLeft(Z);
                 }
@@ -303,7 +187,6 @@ public:
                 {
                     if (y->colour == 'R') // Przypadek 1
                     {
-                        //cout << "Z-first_przyp1_lust " << Z->first << endl;
                         Z->parent->colour = 'B';
                         y->colour = 'B';
                         Z->parent->parent->colour = 'R';
@@ -317,7 +200,7 @@ public:
                     Z = Z->parent;
                     RotateRight(Z);
                 }
-                //cout << "obracanko" << endl;
+
                 Z->parent->colour = 'B'; // Przypadek 3
                 Z->parent->parent->colour = 'R';
                 RotateLeft(Z->parent->parent);
@@ -338,12 +221,10 @@ public:
             if(o1 < wsk->first)
             {
                 wsk = wsk->left;
-                //cout << "left" << endl;
             }
             else
             {
                 wsk = wsk->right;
-                //cout << "right" << endl;
             }
         }
 
@@ -356,12 +237,12 @@ public:
         return  nowy->second;
     }
 
-    class iteratorek
+    class iterator
     {
     public:
         Element<key,value> *wsk;
 
-        iteratorek()
+        iterator()
         {
             wsk = nullptr;
         }
@@ -398,12 +279,12 @@ public:
             return nullptr;
         }
 
-        bool operator!=(const iteratorek &o1)
+        bool operator!=(const iterator &o1)
         {
             return wsk != o1.wsk;
         }
 
-        iteratorek &operator++(int)
+        iterator &operator++(int)
         {
             wsk = successor(wsk); // następnik
             return *this;
@@ -415,9 +296,9 @@ public:
         }
     };
 
-    iteratorek begin()
+    iterator begin()
     {
-        iteratorek i;
+        iterator i;
         i.wsk=root;
 
         while(i.wsk->left != nullptr) // szukam poczatku drzewa
@@ -428,37 +309,28 @@ public:
         return i;
     }
 
-    iteratorek end()
+    iterator end()
     {
-        iteratorek i;
+        iterator i;
         i.wsk = nullptr; // zakończenie drzewa w przechodzeniu następnikiem
         return i;
     }
 };
 
 
-int main() {
-    MAP<int, int> m_rbtree;
-    MAP_LIST<int, int> m_list;
+int main()
+{
+    MAP <string,string> m;
 
+    m["aa"]="bb";
+    m["cc"]="dd";
+    m["zz"]="yy";
+    string s1;
+    s1=m["cc"];
 
-
-    auto start = chrono::system_clock::now();
-    for (int i = 1; i < 100000; i++) {
-        m_rbtree[i] = i;
+    for(MAP<string,string>::iterator i=m.begin();i!=m.end();i++)
+    {
+        cout << i->first << " " << i -> second << endl;
     }
-    auto end = chrono::system_clock::now();
-    chrono::duration<double> elapsed_seconds = end-start;
-    cout << "czas rbtree: " << elapsed_seconds.count() << "s" << endl;
-
-
-
-    start = chrono::system_clock::now();
-    for (int i = 1; i < 100000; i++) {
-        m_list[i] = i;
-    }
-    end = chrono::system_clock::now();
-    elapsed_seconds = end-start;
-    cout << "czas list: " << elapsed_seconds.count() << "s" << endl;
 
 }

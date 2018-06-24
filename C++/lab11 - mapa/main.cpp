@@ -128,7 +128,7 @@ public:
         Element<key,value> *Z;
         Z = new Element<key,value>;
         Z->first = o1;
-        
+
         Element<key,value> *y = nullptr;
         Element<key,value> *x = root;
         while (x != nullptr) {
@@ -210,7 +210,7 @@ public:
         root->colour = 'B';
         return wynik;
     }
-    
+
     value& operator[](const key &o1)
     {
         Element<key,value> *nowy,*wsk=root;
@@ -277,7 +277,7 @@ public:
 
             return nullptr;
         }
-    
+
         bool operator!=(const iteratorek &o1)
         {
             return wsk != o1.wsk;
@@ -321,7 +321,7 @@ int main()
 {
     MAP <string,string> m;
 
-    m["aa"]="bb";
+    m["aa"]="bbasda";
     m["ee"]="ff";
     m["cc"]="dd";
 

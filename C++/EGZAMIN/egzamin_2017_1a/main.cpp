@@ -76,6 +76,7 @@ public:
         {
             if(it->text==txt && it->lang==lan)
             {
+                cout << it->text << endl;
                 words.erase(it);
                 break;
             }
